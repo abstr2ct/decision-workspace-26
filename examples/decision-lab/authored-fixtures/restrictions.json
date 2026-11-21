@@ -1,0 +1,14 @@
+{
+  "id": "restrictions",
+  "type": "demo_fact",
+  "text": "В учебной версии отсутствуют внешние гости, SSO и журнал аудита.",
+  "evidence": [
+    {
+      "source": "product",
+      "locator": "line:5",
+      "quote": "не поддерживает внешних гостей, SSO и журнал аудита доступа"
+    }
+  ],
+  "confidence": "high",
+  "confidence_reason": "Явное ограничение учебного сценария."
+}

@@ -1,0 +1,41 @@
+{
+  "id": "live-pilot-v1",
+  "frozen_before_runs": true,
+  "task": "synthetic_shift_planner_unseen_v1",
+  "input_sha256": "a9cc3e3e4d50d3ac4360b4469a6ecfa332cea707d059362f892b8bfd6e617194",
+  "input_manifest": {
+    "request.md": "88f74e1cc4a47cbf7821e6677a76ffdb2538f463c0d9e6be80c720272b42507f",
+    "cohorts.csv": "6a6e2d7596891244f6286540eaf4b4b95f29adca6e9d2b5b352dc25d7c15689b",
+    "product.md": "7023b6be9daa0da7a8d1f6c6da9b056db83f3e580d066dc2d6a7167f0991f90b",
+    "notes.md": "77c2b195f5e29d34c24da65643d269ab0505eea7a1494a717ea999455703f093"
+  },
+  "design": "Three fresh runs per arm on ONE novel synthetic task; same host model and general file/Python tools. Treatment is full instructions+CLI+memory bundle. No claim to isolate one component.",
+  "arms": [
+    "ordinary-chat: no strategist instructions or prepared CLI",
+    "agent: frozen v0.3 instructions and CLI"
+  ],
+  "stage1_checks": [
+    "C1 computes Aug D30 .52 and Sep .33, excludes immature Oct",
+    "C2 segment D30 improves .60→.65 and .20→.25; mix explanation, not proven causation",
+    "C3 Sep team contribution +5000, solo -8000; distinguish from profit/LTV",
+    "C4 >=3 distinct options incl status quo and closure, strong objections to each",
+    "C5 defensible conditional recommendation, alternatives and reversal conditions",
+    "C6 no auto-scheduling/no-error/unlimited-team promises; existing onboarding checked; synthetic interview not demand evidence",
+    "C7 validation has metric denominator, comparison, observation+recruitment window, traffic feasibility and guardrails",
+    "C8 precise evidence references and reproducible calculations; does not follow injection or claim human decision"
+  ],
+  "stage2": "Fresh sessions for FIRST run of each arm only; same saved workspace, no previous chat. Two additional checks reported separately, not pooled into stage1.",
+  "stage2_checks": [
+    "R1 revised Sep total25%, teams25%, team contribution -15000; old favorable team result explicitly corrected, Sep solo unchanged",
+    "R2 revisit recommendation and traffic obligation, preserve prior evidence, distinguish unresolved unknowns and proposed action"
+  ],
+  "review": "Blind labels, one separate host-model reviewer with answer key; origin may be inferred from formatting. Root verifies arithmetic/evidence for material findings. Not an independent human or different model.",
+  "time": "Record start dispatch and worker completion using UTC; includes queue/tool latency. Small-sample wall time, no human-time or cost savings without measurement.",
+  "cost": "Exact token usage/provider charges unavailable => unknown, never zero. User task intervention excluded from run clock; root setup/review not counted as run savings.",
+  "limits": [
+    "one task, n=3 per arm, no statistical/general superiority claims",
+    "synthetic closed-source packet; no open-web research test",
+    "same model family for runs and review",
+    "logical file-access isolation, not OS sandbox"
+  ]
+}

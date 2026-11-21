@@ -1,0 +1,10 @@
+flowchart LR
+  s_brief-extract["Источник: brief-extract"]
+  s_family-pilot["Источник: family-pilot"]
+  c_annual-gap["annual-gap: demo_fact"]
+  s_brief-extract --> c_annual-gap
+  c_existing-operation["existing-operation: demo_fact"]
+  s_brief-extract --> c_existing-operation
+  decision["Решение"]
+  c_existing-operation --> decision
+  c_annual-gap --> decision

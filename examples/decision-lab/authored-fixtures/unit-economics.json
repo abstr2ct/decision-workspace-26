@@ -1,0 +1,19 @@
+{
+  "id": "unit-economics",
+  "type": "demo_fact",
+  "text": "Teams: 72 000 - 24 000 - 20 000 = 28 000 RUB; solo: 45 000 - 21 000 - 30 000 = -6 000 RUB. Это вклад первых 30 дней, не прибыль и не LTV.",
+  "evidence": [
+    {
+      "source": "metrics",
+      "locator": "line:1",
+      "quote": "\"contribution_after_acquisition_rub\":28000.0"
+    },
+    {
+      "source": "metrics",
+      "locator": "line:1",
+      "quote": "\"contribution_after_acquisition_rub\":-6000.0"
+    }
+  ],
+  "confidence": "medium",
+  "confidence_reason": "В учебной таблице есть нужные переменные затраты; фиксированные расходы и последующие периоды отсутствуют."
+}

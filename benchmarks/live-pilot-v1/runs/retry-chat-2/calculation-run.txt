@@ -1,0 +1,192 @@
+{
+  "definitions": {
+    "d30": "retained_d30 / activated; matured only",
+    "activation": "activated / eligible",
+    "contribution": "revenue - variable_cost; first 30 days",
+    "cac": "acquisition_cost / activated; accounting proxy, not causal CAC"
+  },
+  "by_cohort": {
+    "2026-08": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 52,
+      "revenue_rub": 54000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "activation": 0.5,
+      "d30": 0.52,
+      "contribution": 34000,
+      "after_acquisition": 22000,
+      "cac_per_activated": 120.0,
+      "contribution_per_activated": 340.0
+    },
+    "2026-09": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 33,
+      "revenue_rub": 37000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "activation": 0.3333333333333333,
+      "d30": 0.33,
+      "contribution": 17000,
+      "after_acquisition": -3000,
+      "cac_per_activated": 200.0,
+      "contribution_per_activated": 170.0
+    }
+  },
+  "by_segment": {
+    "teams": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 61,
+      "revenue_rub": 61000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "activation": 0.5,
+      "d30": 0.61,
+      "contribution": 41000,
+      "after_acquisition": 29000,
+      "cac_per_activated": 120.0,
+      "contribution_per_activated": 410.0
+    },
+    "solo": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 24,
+      "revenue_rub": 30000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "activation": 0.3333333333333333,
+      "d30": 0.24,
+      "contribution": 10000,
+      "after_acquisition": -10000,
+      "cac_per_activated": 200.0,
+      "contribution_per_activated": 100.0
+    }
+  },
+  "excluded": [
+    {
+      "cohort": "2026-10",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 60,
+      "retained_d30": 9,
+      "matured_d30": "false",
+      "revenue_rub": 7000,
+      "variable_cost_rub": 6000,
+      "acquisition_cost_rub": 10000
+    }
+  ],
+  "mature_total": {
+    "eligible": 500,
+    "activated": 200,
+    "retained_d30": 85,
+    "revenue_rub": 91000,
+    "variable_cost_rub": 40000,
+    "acquisition_cost_rub": 32000,
+    "activation": 0.4,
+    "d30": 0.425,
+    "contribution": 51000,
+    "after_acquisition": 19000,
+    "cac_per_activated": 160.0,
+    "contribution_per_activated": 255.0
+  },
+  "segment_cohorts": [
+    {
+      "cohort": "2026-08",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 80,
+      "retained_d30": 48,
+      "revenue_rub": 48000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 8000,
+      "activation": 0.8,
+      "d30": 0.6,
+      "contribution": 32000,
+      "after_acquisition": 24000,
+      "cac_per_activated": 100.0,
+      "contribution_per_activated": 400.0
+    },
+    {
+      "cohort": "2026-08",
+      "segment": "solo",
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 4,
+      "revenue_rub": 6000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "activation": 0.2,
+      "d30": 0.2,
+      "contribution": 2000,
+      "after_acquisition": -2000,
+      "cac_per_activated": 200.0,
+      "contribution_per_activated": 100.0
+    },
+    {
+      "cohort": "2026-09",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 13,
+      "revenue_rub": 13000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "activation": 0.2,
+      "d30": 0.65,
+      "contribution": 9000,
+      "after_acquisition": 5000,
+      "cac_per_activated": 200.0,
+      "contribution_per_activated": 450.0
+    },
+    {
+      "cohort": "2026-09",
+      "segment": "solo",
+      "eligible": 200,
+      "activated": 80,
+      "retained_d30": 20,
+      "revenue_rub": 24000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 16000,
+      "activation": 0.4,
+      "d30": 0.25,
+      "contribution": 8000,
+      "after_acquisition": -8000,
+      "cac_per_activated": 200.0,
+      "contribution_per_activated": 100.0
+    }
+  ],
+  "mix": {
+    "aug_weights": {
+      "teams": 0.8,
+      "solo": 0.2
+    },
+    "sep_standardized_to_aug": 0.5700000000000001,
+    "within_effect_pp": 5.000000000000004,
+    "mix_effect_pp": -24.000000000000004,
+    "total_change_pp": -19
+  },
+  "fixed_cost_scenario": {
+    "assumption": "Only listed mature cohorts recognized across two months; not complete company P&L. Cohort windows and calendar costs may differ.",
+    "fixed_two_months": 80000,
+    "residual": -61000
+  },
+  "test_planning": {
+    "assumption": "Two-sided alpha .05, power .8, independent equal groups, normal approximation, 60% to 70%; illustrative only",
+    "per_arm": 356,
+    "total": 712,
+    "min_recruitment_weeks_at_20": 35.6,
+    "min_elapsed_days_including_d30": 279.20000000000005,
+    "max_14_day_recruits": 40,
+    "last_day14_activation_matures_day": 44
+  },
+  "capacity_scenario": {
+    "assumption": "Constant blended teams 30-day residual; no subsequent revenue; 52 weeks / 12 months; all eligible activate",
+    "residual_per_team": 290,
+    "break_even_activated_per_month": 138,
+    "max_eligible_average_month": 86.66666666666667,
+    "max_new_account_residual_average_month": 25133.333333333336
+  }
+}

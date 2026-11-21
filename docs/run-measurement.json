@@ -1,0 +1,17 @@
+{
+  "record_status": "UNMEASURED_TEMPLATE_NOT_A_BENCHMARK",
+  "task_id": "REPLACE_WITH_ACTUAL_TASK",
+  "input_sha256": "REPLACE_WITH_HASH_OF_CANONICAL_INPUT_MANIFEST",
+  "evaluation_protocol": "docs/evaluation.md v1",
+  "reviewer": "REPLACE_WITH_REVIEWER_ROLE",
+  "environment": {"ide": null, "ide_version": null, "model_exact_identifier": null, "model_usage": null, "pricing_basis": null},
+  "wall_seconds": null,
+  "human_seconds": null,
+  "quality_checks_passed": null,
+  "quality_checks_total": 10,
+  "costs": [],
+  "cost_coverage_complete": false,
+  "errors": [],
+  "human_interventions": [],
+  "limitations": ["Replace all unknown fields with actual observations or retain explicitly unknown; never treat this template as measured data"]
+}

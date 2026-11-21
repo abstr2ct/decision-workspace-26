@@ -1,0 +1,14 @@
+{
+  "id": "teams-retention-v2",
+  "type": "demo_fact",
+  "text": "После исправления синтетической выгрузки teams: D30 = 80/400 = 20%, solo остаётся 30%. Причинность неизвестна.",
+  "evidence": [
+    {
+      "source": "metrics-v2",
+      "locator": "line:1",
+      "quote": "\"d30_per_activated\":0.2"
+    }
+  ],
+  "confidence": "medium",
+  "confidence_reason": "Воспроизводимая арифметика учебного исправления; не реальное измерение."
+}

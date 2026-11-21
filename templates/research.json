@@ -1,0 +1,7 @@
+{
+  "questions": [{"question": "", "decision_impact": "", "method": "", "status": ""}],
+  "findings": [{"conclusion": "", "claims": [], "limits": ""}],
+  "unknowns": [{"unknown": "", "decision_impact": "", "next_action": ""}],
+  "contradictions": [],
+  "stop_rule": ""
+}

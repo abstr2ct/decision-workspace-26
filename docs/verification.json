@@ -1,0 +1,42 @@
+{
+  "verified_at_utc": "2026-11-04T13:40:09+00:00",
+  "python": "3.12.10",
+  "platform": "Windows",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "34 unit and integration tests",
+      "returncode": 0,
+      "seconds": 2.664345,
+      "stdout": "",
+      "stderr": "test_different_inputs_rejected (test_comparison.ComparisonTests.test_different_inputs_rejected) ... ok\ntest_incomplete_costs_do_not_establish_savings (test_comparison.ComparisonTests.test_incomplete_costs_do_not_establish_savings) ... ok\ntest_real_difference_and_negative_savings (test_comparison.ComparisonTests.test_real_difference_and_negative_savings) ... ok\ntest_unmeasured_template_rejected (test_comparison.ComparisonTests.test_unmeasured_template_rejected) ... ok\ntest_ab_planning_and_invalid_probabilities (test_workspace.AnalyticsTests.test_ab_planning_and_invalid_probabilities) ... ok\ntest_bad_counts_missing_values_and_duplicates_stop_calculation (test_workspace.AnalyticsTests.test_bad_counts_missing_values_and_duplicates_stop_calculation) ... ok\ntest_ratios_of_sums_and_unmatured_exclusion (test_workspace.AnalyticsTests.test_ratios_of_sums_and_unmatured_exclusion) ... ok\ntest_docx_reading_with_anchor (test_workspace.ExtractionTests.test_docx_reading_with_anchor) ... ok\ntest_html_does_not_include_scripts (test_workspace.ExtractionTests.test_html_does_not_include_scripts) ... ok\ntest_private_and_unapproved_network_denied (test_workspace.ExtractionTests.test_private_and_unapproved_network_denied) ... ok\ntest_redirect_requires_allowlist (test_workspace.ExtractionTests.test_redirect_requires_allowlist) ... ok\ntest_xlsx_values_and_formula_rejection (test_workspace.ExtractionTests.test_xlsx_values_and_formula_rejection) ... ok\ntest_atomic_replace_failure_keeps_previous_state (test_workspace.WorkspaceTests.test_atomic_replace_failure_keeps_previous_state) ... ok\ntest_claim_and_decision_payload_tampering_detected (test_workspace.WorkspaceTests.test_claim_and_decision_payload_tampering_detected) ... ok\ntest_complete_resume_from_new_process_and_export (test_workspace.WorkspaceTests.test_complete_resume_from_new_process_and_export) ... ok\ntest_costs_keep_currencies_and_unknown_categories (test_workspace.WorkspaceTests.test_costs_keep_currencies_and_unknown_categories) ... ok\ntest_duplicate_import_is_idempotent (test_workspace.WorkspaceTests.test_duplicate_import_is_idempotent) ... ok\ntest_event_tampering_is_detected (test_workspace.WorkspaceTests.test_event_tampering_is_detected) ... ok\ntest_exact_quote_and_immutable_claims (test_workspace.WorkspaceTests.test_exact_quote_and_immutable_claims) ... ok\ntest_exclusive_lock_does_not_clobber_state (test_workspace.WorkspaceTests.test_exclusive_lock_does_not_clobber_state) ... ok\ntest_failed_write_rolls_back_and_releases_lock (test_workspace.WorkspaceTests.test_failed_write_rolls_back_and_releases_lock) ... ok\ntest_hypothesis_cannot_support_marketing_promise (test_workspace.WorkspaceTests.test_hypothesis_cannot_support_marketing_promise) ... ok\ntest_options_revision_requires_new_decision_gate (test_workspace.WorkspaceTests.test_options_revision_requires_new_decision_gate) ... ok\ntest_pause_blocks_mutation_but_not_resume (test_workspace.WorkspaceTests.test_pause_blocks_mutation_but_not_resume) ... ok\ntest_portable_copy_resumes_with_relative_source_links (test_workspace.WorkspaceTests.test_portable_copy_resumes_with_relative_source_links) ... ok\ntest_raw_source_tampering_is_detected (test_workspace.WorkspaceTests.test_raw_source_tampering_is_detected) ... ok\ntest_report_snapshot_stale_after_new_evidence (test_workspace.WorkspaceTests.test_report_snapshot_stale_after_new_evidence) ... ok\ntest_source_instructions_remain_data (test_workspace.WorkspaceTests.test_source_instructions_remain_data) ... ok\ntest_source_retraction_invalidates_derivatives_and_decision (test_workspace.WorkspaceTests.test_source_retraction_invalidates_derivatives_and_decision) ... ok\ntest_status_quo_and_shutdown_are_enforced (test_workspace.WorkspaceTests.test_status_quo_and_shutdown_are_enforced) ... ok\ntest_synthetic_lineage_cannot_be_real_fact (test_workspace.WorkspaceTests.test_synthetic_lineage_cannot_be_real_fact) ... ok\ntest_synthetic_respondent_allowed_as_hypothesis_in_live_project (test_workspace.WorkspaceTests.test_synthetic_respondent_allowed_as_hypothesis_in_live_project) ... ok\ntest_unapproved_brief_and_decision_block_progress (test_workspace.WorkspaceTests.test_unapproved_brief_and_decision_block_progress) ... ok\ntest_unrelated_nondemo_case_uses_same_pipeline (test_workspace.WorkspaceTests.test_unrelated_nondemo_case_uses_same_pipeline) ... ok\n\n----------------------------------------------------------------------\nRan 34 tests in 2.392s\n\nOK\n"
+    },
+    {
+      "name": "Initial synthetic scenario audit",
+      "returncode": 0,
+      "seconds": 0.177662,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [\n    \"DEMO: synthetic evidence and simulated approvals; not a real business validation\",\n    \"Incomplete cost coverage: human, model, search\",\n    \"Structural audit verifies citations and workflow, not truth, causality, strategy quality or identity of the approving human\"\n  ],\n  \"revision\": 22\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "Revised synthetic scenario audit",
+      "returncode": 0,
+      "seconds": 0.173657,
+      "stdout": "{\n  \"ok\": true,\n  \"errors\": [],\n  \"warnings\": [\n    \"teams-retention: review_required; retained as history, not usable evidence\",\n    \"unit-economics: review_required; retained as history, not usable evidence\",\n    \"DEMO: synthetic evidence and simulated approvals; not a real business validation\",\n    \"Incomplete cost coverage: human, model, search\",\n    \"Structural audit verifies citations and workflow, not truth, causality, strategy quality or identity of the approving human\"\n  ],\n  \"revision\": 33\n}\n",
+      "stderr": ""
+    },
+    {
+      "name": "Sample planning reproduction",
+      "returncode": 0,
+      "seconds": 0.2053,
+      "stdout": "{\n  \"method\": \"Two independent proportions, equal allocation, normal approximation without continuity correction\",\n  \"baseline\": 0.6,\n  \"target\": 0.7,\n  \"absolute_mde\": 0.09999999999999998,\n  \"alpha_two_sided\": 0.05,\n  \"power\": 0.8,\n  \"independent_units_per_arm\": 356,\n  \"total\": 712,\n  \"limitations\": [\n    \"Not a promise of achievable effect\",\n    \"Account for clustering, attrition, multiplicity and sparse samples separately\",\n    \"If actual traffic is insufficient, run a feasibility pilot or preplan a longer window\"\n  ]\n}\n",
+      "stderr": ""
+    }
+  ],
+  "additional_observations": [
+    "Real HTTPS smoke check of www.iana.org/help/example-domains succeeded; this is a technical check, not a market source",
+    "Both SKILL.md files passed the host skill-creator validator",
+    "Live LLM strategy quality and full cost have not been measured",
+    "GitHub Actions matrix is supplied but has not run remotely; Linux/Python 3.10 compatibility is not yet independently verified"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "mature_by_month": {
+    "2026-08": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 52,
+      "revenue_rub": 54000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "activation": 0.5,
+      "d30": 0.52,
+      "contribution_before_acquisition": 34000,
+      "contribution_after_acquisition": 22000,
+      "contribution_after_acquisition_per_activated": 220.0,
+      "d30_wilson95": [
+        0.4231657776522397,
+        0.615354482419481
+      ]
+    },
+    "2026-09": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 33,
+      "revenue_rub": 37000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "activation": 0.3333333333333333,
+      "d30": 0.33,
+      "contribution_before_acquisition": 17000,
+      "contribution_after_acquisition": -3000,
+      "contribution_after_acquisition_per_activated": -30.0,
+      "d30_wilson95": [
+        0.24563122734128034,
+        0.4269465620490947
+      ]
+    }
+  },
+  "mature_by_segment": {
+    "teams": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 61,
+      "revenue_rub": 61000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "activation": 0.5,
+      "d30": 0.61,
+      "contribution_before_acquisition": 41000,
+      "contribution_after_acquisition": 29000,
+      "contribution_after_acquisition_per_activated": 290.0,
+      "d30_wilson95": [
+        0.5120301704584073,
+        0.6998312599360558
+      ]
+    },
+    "solo": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 24,
+      "revenue_rub": 30000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "activation": 0.3333333333333333,
+      "d30": 0.24,
+      "contribution_before_acquisition": 10000,
+      "contribution_after_acquisition": -10000,
+      "contribution_after_acquisition_per_activated": -100.0,
+      "d30_wilson95": [
+        0.16691325556948777,
+        0.3323233634981447
+      ]
+    }
+  },
+  "rows": [
+    {
+      "cohort": "2026-08",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 80,
+      "retained_d30": 48,
+      "matured_d30": "true",
+      "revenue_rub": 48000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 8000,
+      "activation": 0.8,
+      "d30": 0.6,
+      "contribution_after_acquisition": 24000
+    },
+    {
+      "cohort": "2026-08",
+      "segment": "solo",
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 4,
+      "matured_d30": "true",
+      "revenue_rub": 6000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "activation": 0.2,
+      "d30": 0.2,
+      "contribution_after_acquisition": -2000
+    },
+    {
+      "cohort": "2026-09",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 13,
+      "matured_d30": "true",
+      "revenue_rub": 13000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "activation": 0.2,
+      "d30": 0.65,
+      "contribution_after_acquisition": 5000
+    },
+    {
+      "cohort": "2026-09",
+      "segment": "solo",
+      "eligible": 200,
+      "activated": 80,
+      "retained_d30": 20,
+      "matured_d30": "true",
+      "revenue_rub": 24000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 16000,
+      "activation": 0.4,
+      "d30": 0.25,
+      "contribution_after_acquisition": -8000
+    },
+    {
+      "cohort": "2026-10",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 60,
+      "retained_d30": 9,
+      "matured_d30": "false",
+      "revenue_rub": 7000,
+      "variable_cost_rub": 6000,
+      "acquisition_cost_rub": 10000,
+      "activation": 0.6,
+      "d30": null,
+      "contribution_after_acquisition": -9000
+    }
+  ],
+  "standardized_september_at_august_mix": 0.5700000000000001,
+  "decomposition_pp": {
+    "within_at_august_mix": 5.000000000000004,
+    "mix_at_september_rates": -24.000000000000004
+  },
+  "ab": {
+    "baseline": 0.6,
+    "target": 0.7,
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "per_arm": 356,
+    "total": 712,
+    "best_case_recruitment_days": 250,
+    "plus_d30_days": 280,
+    "assumption": "All eligible accounts activate; otherwise longer"
+  },
+  "teams_only_monthly_break_even_activated_at_observed_contribution": 138
+}

@@ -1,0 +1,69 @@
+{
+  "kind": "technical_CLI_ablation_not_LLM_benchmark",
+  "repeats_per_arm": 3,
+  "records": [
+    {
+      "repeat": 1,
+      "arm": "separate",
+      "seconds": 1.7266166000044905,
+      "cli_calls": 9,
+      "stdout_utf8_bytes": 15827
+    },
+    {
+      "repeat": 1,
+      "arm": "checkpoint",
+      "seconds": 0.30461250000371365,
+      "cli_calls": 1,
+      "stdout_utf8_bytes": 274
+    },
+    {
+      "repeat": 2,
+      "arm": "checkpoint",
+      "seconds": 0.2856018000020413,
+      "cli_calls": 1,
+      "stdout_utf8_bytes": 274
+    },
+    {
+      "repeat": 2,
+      "arm": "separate",
+      "seconds": 1.6111214000047767,
+      "cli_calls": 9,
+      "stdout_utf8_bytes": 15827
+    },
+    {
+      "repeat": 3,
+      "arm": "separate",
+      "seconds": 1.619531199998164,
+      "cli_calls": 9,
+      "stdout_utf8_bytes": 15827
+    },
+    {
+      "repeat": 3,
+      "arm": "checkpoint",
+      "seconds": 0.29548329999670386,
+      "cli_calls": 1,
+      "stdout_utf8_bytes": 274
+    }
+  ],
+  "summary": {
+    "separate": {
+      "cli_calls": 9,
+      "median_seconds": 1.619531199998164,
+      "median_stdout_utf8_bytes": 15827
+    },
+    "checkpoint": {
+      "cli_calls": 1,
+      "median_seconds": 0.29548329999670386,
+      "median_stdout_utf8_bytes": 274
+    }
+  },
+  "identical_business_payloads": true,
+  "human_decision_not_approved": true,
+  "stdout_reduction_fraction": 0.982687811966892,
+  "limits": [
+    "CLI wall time only; excludes LLM reasoning, preparation and human review",
+    "Input/output bytes are not billed tokens or quality metrics",
+    "Staging copies source blobs; large projects may cost more disk time",
+    "Atomicity concerns state; unreferenced immutable blobs may remain after disk failure"
+  ]
+}

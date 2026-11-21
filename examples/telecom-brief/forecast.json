@@ -1,0 +1,231 @@
+{
+  "semantics": "Synthetic conditional assumptions, not real outcomes",
+  "brief_baseline": {
+    "profit_rub": 279000000,
+    "active_groups": 5000,
+    "connected_groups": 8000,
+    "multi_number_owners": 1000,
+    "q4_activation_pp": 45
+  },
+  "brief_goal": {
+    "profit_rub": 285000000,
+    "active_groups": 8000,
+    "connected_groups": 12000,
+    "multi_number_owners": 2000,
+    "q4_activation_pp": 60
+  },
+  "main": {
+    "scenario_funnel": [
+      {
+        "channel": "app",
+        "unique_exposure_assumption": 10000,
+        "created_treatment": "700",
+        "connected_treatment": "525.00",
+        "activated_treatment_at_q4_rate": "364",
+        "extra_created_vs_control": "400",
+        "extra_connected_in_dec": "270.0000"
+      },
+      {
+        "channel": "support",
+        "unique_exposure_assumption": 1500,
+        "created_treatment": "120",
+        "connected_treatment": "90.00",
+        "activated_treatment_at_q4_rate": "62.4",
+        "extra_created_vs_control": "45",
+        "extra_connected_in_dec": "30.3750"
+      },
+      {
+        "channel": "sales",
+        "unique_exposure_assumption": 2500,
+        "created_treatment": "100",
+        "connected_treatment": "75.00",
+        "activated_treatment_at_q4_rate": "52",
+        "extra_created_vs_control": "50",
+        "extra_connected_in_dec": "33.7500"
+      }
+    ],
+    "monthly_entry_cohort_size_and_month_number": [
+      [
+        1000,
+        7
+      ],
+      [
+        1000,
+        9
+      ],
+      [
+        1000,
+        10
+      ],
+      [
+        1000,
+        11
+      ]
+    ],
+    "quarterly": [
+      {
+        "quarter": 1,
+        "paid_months": "0",
+        "direct_cost_rub": 0,
+        "increment_rub": 0,
+        "cumulative_rub": 0
+      },
+      {
+        "quarter": 2,
+        "paid_months": "0",
+        "direct_cost_rub": 30000,
+        "increment_rub": -30000,
+        "cumulative_rub": -30000
+      },
+      {
+        "quarter": 3,
+        "paid_months": "120",
+        "direct_cost_rub": 45000,
+        "increment_rub": 15000,
+        "cumulative_rub": -15000
+      },
+      {
+        "quarter": 4,
+        "paid_months": "330",
+        "direct_cost_rub": 45000,
+        "increment_rub": 120000,
+        "cumulative_rub": 105000
+      }
+    ],
+    "paid_month_gap_assumption_pp": 3,
+    "incremental_paid_months": "450",
+    "new_direct_cost_rub": 120000,
+    "profit_increment_before_build_rub": 105000,
+    "annual_build_break_even_ceiling_rub": 105000,
+    "months_needed_for_285m": 12240,
+    "forecast": {
+      "profit_rub": 279105000,
+      "active_groups": 5417,
+      "connected_groups": 8334,
+      "multi_number_owners": 1000,
+      "q4_activation_pp": 52
+    },
+    "gap_to_goal": {
+      "profit_rub": 5895000,
+      "active_groups": 2583,
+      "connected_groups": 3666,
+      "multi_number_owners": 1000,
+      "q4_activation_pp": 8
+    }
+  },
+  "weak": {
+    "scenario_funnel": [
+      {
+        "channel": "app",
+        "unique_exposure_assumption": 5000,
+        "created_treatment": "250",
+        "connected_treatment": "150.00",
+        "activated_treatment_at_q4_rate": "112.5",
+        "extra_created_vs_control": "100",
+        "extra_connected_in_dec": "48.0000"
+      },
+      {
+        "channel": "support",
+        "unique_exposure_assumption": 750,
+        "created_treatment": "45",
+        "connected_treatment": "27.00",
+        "activated_treatment_at_q4_rate": "20.25",
+        "extra_created_vs_control": "7.5",
+        "extra_connected_in_dec": "3.60000"
+      },
+      {
+        "channel": "sales",
+        "unique_exposure_assumption": 1250,
+        "created_treatment": "37.5",
+        "connected_treatment": "22.500",
+        "activated_treatment_at_q4_rate": "16.875",
+        "extra_created_vs_control": "12.5",
+        "extra_connected_in_dec": "6.00000"
+      }
+    ],
+    "monthly_entry_cohort_size_and_month_number": [
+      [
+        500,
+        7
+      ],
+      [
+        500,
+        9
+      ],
+      [
+        500,
+        10
+      ],
+      [
+        500,
+        11
+      ]
+    ],
+    "quarterly": [
+      {
+        "quarter": 1,
+        "paid_months": "0",
+        "direct_cost_rub": 0,
+        "increment_rub": 0,
+        "cumulative_rub": 0
+      },
+      {
+        "quarter": 2,
+        "paid_months": "0",
+        "direct_cost_rub": 25000,
+        "increment_rub": -25000,
+        "cumulative_rub": -25000
+      },
+      {
+        "quarter": 3,
+        "paid_months": "20",
+        "direct_cost_rub": 35000,
+        "increment_rub": -25000,
+        "cumulative_rub": -50000
+      },
+      {
+        "quarter": 4,
+        "paid_months": "55",
+        "direct_cost_rub": 40000,
+        "increment_rub": -12500,
+        "cumulative_rub": -62500
+      }
+    ],
+    "paid_month_gap_assumption_pp": 1,
+    "incremental_paid_months": "75",
+    "new_direct_cost_rub": 100000,
+    "profit_increment_before_build_rub": -62500,
+    "annual_build_break_even_ceiling_rub": 0,
+    "months_needed_for_285m": 12200,
+    "forecast": {
+      "profit_rub": 278937500,
+      "active_groups": 5036,
+      "connected_groups": 8058,
+      "multi_number_owners": 1000,
+      "q4_activation_pp": 45
+    },
+    "gap_to_goal": {
+      "profit_rub": 6062500,
+      "active_groups": 2964,
+      "connected_groups": 3942,
+      "multi_number_owners": 1000,
+      "q4_activation_pp": 15
+    }
+  },
+  "trial": {
+    "method": "Two independent proportions, equal allocation, normal approximation without continuity correction",
+    "baseline": 0.12,
+    "target": 0.09,
+    "absolute_mde": 0.03,
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "independent_units_per_arm": 1638,
+    "total": 3276,
+    "limitations": [
+      "Not a promise of achievable effect",
+      "Account for clustering, attrition, multiplicity and sparse samples separately",
+      "If actual traffic is insufficient, run a feasibility pilot or preplan a longer window"
+    ]
+  },
+  "group_per_week_for_12_weeks": 273
+}

@@ -1,0 +1,174 @@
+{
+  "method": "Sum mutually exclusive matured cohorts by segment; ratios of sums, Wilson 95% for D30/activated",
+  "currency": "RUB",
+  "window": "first 30 days; no LTV extrapolation",
+  "segments": {
+    "solo": {
+      "eligible": 300.0,
+      "activated": 100.0,
+      "retained_d30": 24.0,
+      "revenue_rub": 30000.0,
+      "variable_cost_rub": 20000.0,
+      "acquisition_cost_rub": 20000.0,
+      "cohorts": [
+        "2026-08",
+        "2026-09"
+      ],
+      "activation_rate": 0.3333333333333333,
+      "d30_per_activated": 0.24,
+      "d30_per_eligible": 0.08,
+      "d30_95pct_wilson": [
+        0.16691325556948772,
+        0.33232336349814473
+      ],
+      "contribution_before_acquisition_rub": 10000.0,
+      "contribution_after_acquisition_rub": -10000.0
+    },
+    "teams": {
+      "eligible": 200.0,
+      "activated": 100.0,
+      "retained_d30": 61.0,
+      "revenue_rub": 61000.0,
+      "variable_cost_rub": 20000.0,
+      "acquisition_cost_rub": 12000.0,
+      "cohorts": [
+        "2026-08",
+        "2026-09"
+      ],
+      "activation_rate": 0.5,
+      "d30_per_activated": 0.61,
+      "d30_per_eligible": 0.305,
+      "d30_95pct_wilson": [
+        0.5120301704584073,
+        0.6998312599360558
+      ],
+      "contribution_before_acquisition_rub": 41000.0,
+      "contribution_after_acquisition_rub": 29000.0
+    }
+  },
+  "excluded": [
+    {
+      "row": 6,
+      "reason": "D30 not matured",
+      "cohort": "2026-10",
+      "segment": "teams"
+    }
+  ],
+  "limits": [
+    "Synthetic input stays synthetic",
+    "Descriptive segment differences are not causal effects",
+    "Wilson intervals assume independent Bernoulli observations; repeated users/clusters invalidate them",
+    "Contribution excludes fixed costs, taxes and later cash flows; this is not profit or LTV"
+  ],
+  "months": {
+    "2026-08": {
+      "eligible": 200.0,
+      "activated": 100.0,
+      "retained_d30": 52.0,
+      "revenue_rub": 54000.0,
+      "variable_cost_rub": 20000.0,
+      "acquisition_cost_rub": 12000.0,
+      "activation": 0.5,
+      "d30": 0.52,
+      "d30_eligible": 0.26,
+      "d30_wilson": [
+        0.4231657776522397,
+        0.615354482419481
+      ],
+      "contribution_after_acquisition": 22000.0
+    },
+    "2026-09": {
+      "eligible": 300.0,
+      "activated": 100.0,
+      "retained_d30": 33.0,
+      "revenue_rub": 37000.0,
+      "variable_cost_rub": 20000.0,
+      "acquisition_cost_rub": 20000.0,
+      "activation": 0.3333333333333333,
+      "d30": 0.33,
+      "d30_eligible": 0.11,
+      "d30_wilson": [
+        0.24563122734128034,
+        0.4269465620490947
+      ],
+      "contribution_after_acquisition": -3000.0
+    }
+  },
+  "row_metrics": [
+    {
+      "row": 2,
+      "activation": 0.8,
+      "d30": 0.6,
+      "d30_eligible": 0.48,
+      "wilson": [
+        0.4904546500516039,
+        0.7003817240412906
+      ]
+    },
+    {
+      "row": 3,
+      "activation": 0.2,
+      "d30": 0.2,
+      "d30_eligible": 0.04,
+      "wilson": [
+        0.08065766257979806,
+        0.41601743225189364
+      ]
+    },
+    {
+      "row": 4,
+      "activation": 0.2,
+      "d30": 0.65,
+      "d30_eligible": 0.13,
+      "wilson": [
+        0.43285427668523624,
+        0.818808175898918
+      ]
+    },
+    {
+      "row": 5,
+      "activation": 0.4,
+      "d30": 0.25,
+      "d30_eligible": 0.1,
+      "wilson": [
+        0.16806231857542375,
+        0.3548467461923397
+      ]
+    }
+  ],
+  "mix_decomposition": {
+    "august": 0.52,
+    "september_at_august_mix": 0.5700000000000001,
+    "september": 0.33,
+    "within_rate_effect_pp": 5,
+    "mix_effect_pp": -24,
+    "total_pp": -19
+  },
+  "ab": {
+    "method": "Two independent proportions, equal allocation, normal approximation without continuity correction",
+    "baseline": 0.61,
+    "target": 0.71,
+    "absolute_mde": 0.09999999999999998,
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "independent_units_per_arm": 352,
+    "total": 704,
+    "limitations": [
+      "Not a promise of achievable effect",
+      "Account for clustering, attrition, multiplicity and sparse samples separately",
+      "If actual traffic is insufficient, run a feasibility pilot or preplan a longer window"
+    ],
+    "minimum_recruitment_weeks": 36,
+    "minimum_calendar_days": 282,
+    "note": "20 eligible accounts/week maximum across segments: activated teams accrual is lower; optimistic calendar bound only. No D30 at day 14."
+  },
+  "economics": {
+    "teams_contribution_per_activated": 290,
+    "solo_contribution_per_activated": -100,
+    "teams_steady_state_accounts_to_cover_40000": 138,
+    "two_month_first_window_contribution": 19000,
+    "illustrative_two_month_fixed_cost": 80000,
+    "illustrative_difference": -61000,
+    "warning": "Not accounting profit: cohort windows differ from calendar fixed-cost months; repeat revenues, allocation, exit costs and realization unknown."
+  }
+}

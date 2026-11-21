@@ -1,0 +1,29 @@
+{
+  "browser": "Edge headless / Playwright",
+  "viewport_desktop": [
+    1280,
+    1000
+  ],
+  "viewport_mobile": [
+    390,
+    844
+  ],
+  "checks": [
+    "robust candidate",
+    "scenario changes action",
+    "shutdown branch",
+    "aria-pressed state",
+    "inconclusive outcome policy",
+    "390px no horizontal overflow",
+    "no JS errors",
+    "no HTTP requests"
+  ],
+  "errors": [],
+  "network": [],
+  "screenshots": [
+    "lab-overview.png",
+    "lab-research.png",
+    "lab-detail.png",
+    "lab-mobile.png"
+  ]
+}

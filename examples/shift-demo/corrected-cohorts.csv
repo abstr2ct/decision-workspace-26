@@ -1,0 +1,6 @@
+cohort,segment,eligible,activated,retained_d30,matured_d30,revenue_rub,variable_cost_rub,acquisition_cost_rub
+2026-08,teams,100,80,48,true,48000,16000,8000
+2026-08,solo,100,20,4,true,6000,4000,4000
+2026-09,teams,100,20,5,true,5000,16000,4000
+2026-09,solo,200,80,20,true,24000,16000,16000
+2026-10,teams,100,60,9,false,7000,6000,10000

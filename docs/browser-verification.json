@@ -1,0 +1,18 @@
+{
+  "browser": "Edge headless via Playwright",
+  "checks": [
+    "overview renders",
+    "four alternatives",
+    "claim type filter",
+    "source navigation",
+    "390px no horizontal overflow",
+    "no page errors"
+  ],
+  "screenshots": [
+    "public-mobile.png",
+    "public-options.png",
+    "public-overview-viewport.png",
+    "public-overview.png",
+    "public-source.png"
+  ]
+}

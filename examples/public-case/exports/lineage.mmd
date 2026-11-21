@@ -1,0 +1,23 @@
+flowchart LR
+  s_relay-activation["Источник: relay-activation"]
+  s_relay-ios["Источник: relay-ios"]
+  s_relay-onboarding["Источник: relay-onboarding"]
+  s_relay-usage["Источник: relay-usage"]
+  c_confusion["confusion: hypothesis"]
+  c_existing-forwarding-check["existing-forwarding-check: fact"]
+  s_relay-onboarding --> c_existing-forwarding-check
+  c_forwarding["forwarding: fact"]
+  s_relay-activation --> c_forwarding
+  c_general-limit["general-limit: fact"]
+  s_relay-activation --> c_general-limit
+  c_ios-limit["ios-limit: fact"]
+  s_relay-ios --> c_ios-limit
+  c_lift["lift: forecast"]
+  c_usage-boundary["usage-boundary: fact"]
+  s_relay-usage --> c_usage-boundary
+  decision["Решение"]
+  c_forwarding --> decision
+  c_usage-boundary --> decision
+  c_ios-limit --> decision
+  c_existing-forwarding-check --> decision
+  c_confusion --> decision

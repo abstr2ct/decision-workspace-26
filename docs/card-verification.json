@@ -1,0 +1,10 @@
+{
+  "browser": "Edge / Playwright",
+  "checks": [
+    "pending owner decision visible",
+    "evidence details include source locators",
+    "390px no overflow",
+    "no JS errors"
+  ],
+  "errors": []
+}

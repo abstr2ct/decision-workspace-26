@@ -1,0 +1,13 @@
+{
+  "option_id": "",
+  "product": {"audience": "", "job": "", "alternatives": [], "direction": "", "non_goals": [], "value": "", "economics": ""},
+  "communication": {
+    "audience": "", "situation": "", "barrier": "", "message": "",
+    "proof": [{"statement": "", "claims": [], "qualification": ""}],
+    "channels": [{"channel": "", "role": ""}],
+    "promise_checks": [{"promise": "", "product_capability": "", "claims": [], "restrictions": ""}]
+  },
+  "experiment": {"hypothesis": "", "primary_metric": "", "comparison": "", "allocation": "", "observation_window": "", "sample_plan": "", "success_rule": "", "guardrails": [], "stop_rule": "", "owner": ""},
+  "claims": [],
+  "limitations": []
+}

@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "cli_exit_code": 0,
+  "synthetic_lineage_preserved": true,
+  "result": {
+    "baseline_cohort": "2026-08",
+    "baseline_d30": 0.52,
+    "current_cohort": "2026-09",
+    "current_d30": 0.33,
+    "current_d30_at_baseline_mix": 0.57,
+    "denominator": "activated accounts; same D30 definition and mutually exclusive segments required",
+    "excluded_immature_rows": [
+      {
+        "cohort": "2026-10",
+        "reason": "D30 not matured",
+        "row": 6,
+        "segment": "teams"
+      }
+    ],
+    "limits": [
+      "Accounting identity, not a causal explanation or proof of product improvement",
+      "Order matters for attribution: interaction assigned to the mix term",
+      "No significance test; sampling uncertainty and confounding remain",
+      "Identical maturity, segment definitions and tracking must be checked against source metadata"
+    ],
+    "method": "Descriptive ordered decomposition: baseline weights, then current segment rates",
+    "mix_change_pp": -24.0,
+    "segments": [
+      {
+        "baseline_rate": 0.2,
+        "baseline_weight": 0.2,
+        "current_rate": 0.25,
+        "current_weight": 0.8,
+        "mix_contribution_pp": 15.0,
+        "segment": "solo",
+        "within_contribution_pp": 1.0
+      },
+      {
+        "baseline_rate": 0.6,
+        "baseline_weight": 0.8,
+        "current_rate": 0.65,
+        "current_weight": 0.2,
+        "mix_contribution_pp": -39.0,
+        "segment": "teams",
+        "within_contribution_pp": 4.0
+      }
+    ],
+    "total_change_pp": -19.0,
+    "within_segment_change_pp": 5.0
+  }
+}

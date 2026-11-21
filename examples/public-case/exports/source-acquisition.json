@@ -1,0 +1,41 @@
+[
+  {
+    "id": "relay-activation",
+    "url": "https://support.mozilla.org/en-US/kb/activate-firefox-relay-mask-your-email-address",
+    "fetched_at_utc": "2026-11-05T06:11:29+00:00",
+    "direct_response_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "direct_response_is_article": false,
+    "acquisition_method": "web__run open + manual excerpt import",
+    "saved_excerpt_sha256": "57ce846c31c8ba337f54ea1965f05640ee3e568447060e752edd4fc988496788",
+    "excerpt_checked_in_direct_response": false,
+    "excerpt_checked_in_web_tool_by_root": true
+  },
+  {
+    "id": "relay-usage",
+    "url": "https://support.mozilla.org/en-US/kb/create-email-mask-through-firefox-relay",
+    "fetched_at_utc": "2026-11-05T06:11:30+00:00",
+    "direct_response_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "direct_response_is_article": false,
+    "acquisition_method": "web__run open + manual excerpt import",
+    "saved_excerpt_sha256": "dc381ac7b2f7dc6e0e0a7b4a6c4fa42dfb9cd91910500cdb1c537e9a92e1ef15",
+    "excerpt_checked_in_direct_response": false,
+    "excerpt_checked_in_web_tool_by_root": true
+  },
+  {
+    "id": "relay-ios",
+    "url": "https://support.mozilla.org/en-US/kb/relay-masks-ios",
+    "fetched_at_utc": "2026-11-05T06:11:30+00:00",
+    "direct_response_sha256": "32ed63159c77e21ee19ca1b9aa3213ccf0218eb59539560b132a8e68ef0e18ea",
+    "direct_response_is_article": false,
+    "acquisition_method": "web__run open + manual excerpt import",
+    "saved_excerpt_sha256": "f7cbe19abefb8357583d84d9f4f4f177b7a95b0af30b950e7cdcd528f4832445",
+    "excerpt_checked_in_direct_response": false,
+    "excerpt_checked_in_web_tool_by_root": true
+  },
+  {
+    "id": "relay-onboarding",
+    "url": "https://support.mozilla.org/en-US/kb/activate-firefox-relay-mask-your-email-address",
+    "acquisition_method": "web__run open + manual brief excerpt import during critical review",
+    "excerpt_checked_in_web_tool_by_root": true
+  }
+]

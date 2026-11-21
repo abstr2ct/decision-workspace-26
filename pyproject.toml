@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "product-strategist-workspace"
+version = "0.6.0"
+description = "Portable evidence-led product strategy agent workspace"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+strategist = "strategist.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["strategist*"]

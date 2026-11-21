@@ -1,0 +1,23 @@
+flowchart LR
+  s_cohort-metrics["Источник: cohort-metrics"]
+  s_cohorts["Источник: cohorts"]
+  s_notes["Источник: notes"]
+  s_product["Источник: product"]
+  s_request["Источник: request"]
+  c_capability["capability: demo_fact"]
+  s_product --> c_capability
+  c_cohort-summary["cohort-summary: demo_fact"]
+  s_cohort-metrics --> c_cohort-summary
+  c_fixed["fixed: demo_fact"]
+  s_product --> c_fixed
+  c_roadmap["roadmap: demo_fact"]
+  s_product --> c_roadmap
+  c_ux["ux: demo_fact"]
+  s_notes --> c_ux
+  s_cohorts --> s_cohort-metrics
+  decision["Решение"]
+  c_cohort-summary --> decision
+  c_capability --> decision
+  c_roadmap --> decision
+  c_fixed --> decision
+  c_ux --> decision

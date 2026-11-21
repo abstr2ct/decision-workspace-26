@@ -1,0 +1,11 @@
+{
+  "question": "",
+  "objective": "",
+  "recipient": "",
+  "decision_owner": "",
+  "constraints": [],
+  "success_metric": "",
+  "data_available": [],
+  "data_classification": "public_or_own",
+  "next_question": ""
+}

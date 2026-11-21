@@ -1,0 +1,108 @@
+{
+  "study": "live-pilot-v1",
+  "snapshot_utc": "2026-11-14T12:06:30.545999+00:00",
+  "status": "final_curtailed_study",
+  "planned_n_per_arm": 3,
+  "runs": [
+    {
+      "run": "retry-agent-1",
+      "arm": "agent",
+      "status": "completed",
+      "start_utc": "2026-11-14T06:12:56.5396149Z",
+      "end_utc": "2026-11-14T06:18:04.183242+00:00",
+      "measured_seconds": 307.643628,
+      "quality_score": null,
+      "evidence": "runs/retry-agent-1/report.md"
+    },
+    {
+      "run": "retry-agent-2",
+      "arm": "agent",
+      "status": "incomplete_at_finalization",
+      "start_utc": "2026-11-14T06:18:33.5857179Z",
+      "end_utc": null,
+      "measured_seconds": null,
+      "quality_score": null,
+      "evidence": "runs/retry-agent-2/report.md"
+    },
+    {
+      "run": "retry-agent-3",
+      "arm": "agent",
+      "status": "not_started",
+      "start_utc": null,
+      "end_utc": null,
+      "measured_seconds": null,
+      "quality_score": null,
+      "evidence": null
+    },
+    {
+      "run": "retry-chat-1",
+      "arm": "chat",
+      "status": "completed",
+      "start_utc": "2026-11-14T06:12:53.3896907Z",
+      "end_utc": "2026-11-14T06:15:52.5599111Z",
+      "measured_seconds": 179.170221,
+      "quality_score": null,
+      "evidence": "runs/retry-chat-1/report.md"
+    },
+    {
+      "run": "retry-chat-2",
+      "arm": "chat",
+      "status": "completed",
+      "start_utc": "2026-11-14T06:16:24.6623064Z",
+      "end_utc": "2026-11-14T06:19:16.5802505Z",
+      "measured_seconds": 171.917944,
+      "quality_score": null,
+      "evidence": "runs/retry-chat-2/report.md"
+    },
+    {
+      "run": "retry-chat-3",
+      "arm": "chat",
+      "status": "completed",
+      "start_utc": "2026-11-14T06:19:47Z",
+      "end_utc": "2026-11-14T06:21:28.0525657Z",
+      "measured_seconds": 101.052565,
+      "quality_score": null,
+      "evidence": "runs/retry-chat-3/report.md"
+    }
+  ],
+  "summary": {
+    "chat": {
+      "completed_n": 3,
+      "median_seconds": 171.917944
+    },
+    "agent": {
+      "completed_n": 1,
+      "median_seconds": 307.643628
+    }
+  },
+  "stage2": {
+    "status": "not_started_user_curtailment",
+    "scores": null
+  },
+  "review": {
+    "blind_reviewer_executed": false,
+    "method": "Coordinator/root descriptive inspection only; no criterion scores or adjudications",
+    "quality_scores": null
+  },
+  "usage": null,
+  "cost": null,
+  "human_time": null,
+  "exact_backend": null,
+  "model_family": "inherited session config gpt-6-astra; exact backend unverified",
+  "interruptions": "../benchmarks/live-pilot-v1/interruptions.json",
+  "limitations": [
+    "One synthetic task; curtailed unequal n, no general superiority inference",
+    "Timing starts at worker first timestamp, excludes dispatch and setup/review; parallel contention possible",
+    "Logical directory access isolation only",
+    "Full frozen v0.3 bundle treatment; no component attribution or v0.4 claim",
+    "Stage2 and blind review not executed"
+  ],
+  "arithmetic_verified": {
+    "aug_d30": 0.52,
+    "sep_d30": 0.33,
+    "sep_teams_contribution": 5000,
+    "sep_solo_contribution": -8000
+  },
+  "hash_note": "Original protocol uses LF normalized hashes; raw CRLF hashes and all24 matches recorded in retry-input-manifest.json and retry-material-verification.json. Sealed protocol unchanged.",
+  "finalization": "No further sessions planned in this study. Scope reduced at user request to save time/limits. Incomplete attempts retained and excluded; no blind quality grades or continuation results invented."
+}

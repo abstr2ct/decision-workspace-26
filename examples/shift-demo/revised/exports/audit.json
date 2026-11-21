@@ -1,0 +1,14 @@
+{
+  "ok": false,
+  "errors": [
+    "Missing or stale document: strategy",
+    "Missing or stale human gate: decision"
+  ],
+  "warnings": [
+    "cohort-summary: review_required; retained as history, not usable evidence",
+    "DEMO: synthetic evidence and simulated approvals; not a real business validation",
+    "Incomplete cost coverage: human, model, search, tool",
+    "Structural audit verifies citations and workflow, not truth, causality, strategy quality or identity of the approving human"
+  ],
+  "revision": 23
+}

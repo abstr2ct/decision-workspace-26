@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "teams-retention: review_required; retained as history, not usable evidence",
+    "unit-economics: review_required; retained as history, not usable evidence",
+    "DEMO: synthetic evidence and simulated approvals; not a real business validation",
+    "Incomplete cost coverage: human, model, search",
+    "Structural audit verifies citations and workflow, not truth, causality, strategy quality or identity of the approving human"
+  ],
+  "revision": 38
+}

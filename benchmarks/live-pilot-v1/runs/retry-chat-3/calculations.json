@@ -1,0 +1,122 @@
+{
+  "scope": "Only matured rows; D30 denominator = activated; RUB, first 30 days",
+  "monthly": {
+    "2026-08": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 52,
+      "revenue_rub": 54000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "activation": 0.5,
+      "d30": 0.52,
+      "contribution": 34000,
+      "after_acquisition": 22000,
+      "per_activated": {
+        "revenue_rub": 540.0,
+        "variable_cost_rub": 200.0,
+        "acquisition_cost_rub": 120.0,
+        "contribution": 340.0,
+        "after_acquisition": 220.0
+      }
+    },
+    "2026-09": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 33,
+      "revenue_rub": 37000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "activation": 0.3333333333333333,
+      "d30": 0.33,
+      "contribution": 17000,
+      "after_acquisition": -3000,
+      "per_activated": {
+        "revenue_rub": 370.0,
+        "variable_cost_rub": 200.0,
+        "acquisition_cost_rub": 200.0,
+        "contribution": 170.0,
+        "after_acquisition": -30.0
+      }
+    }
+  },
+  "segments": {
+    "teams": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 61,
+      "revenue_rub": 61000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "activation": 0.5,
+      "d30": 0.61,
+      "contribution": 41000,
+      "after_acquisition": 29000,
+      "per_activated": {
+        "revenue_rub": 610.0,
+        "variable_cost_rub": 200.0,
+        "acquisition_cost_rub": 120.0,
+        "contribution": 410.0,
+        "after_acquisition": 290.0
+      }
+    },
+    "solo": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 24,
+      "revenue_rub": 30000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "activation": 0.3333333333333333,
+      "d30": 0.24,
+      "contribution": 10000,
+      "after_acquisition": -10000,
+      "per_activated": {
+        "revenue_rub": 300.0,
+        "variable_cost_rub": 200.0,
+        "acquisition_cost_rub": 200.0,
+        "contribution": 100.0,
+        "after_acquisition": -100.0
+      }
+    }
+  },
+  "all_mature": {
+    "eligible": 500,
+    "activated": 200,
+    "retained_d30": 85,
+    "revenue_rub": 91000,
+    "variable_cost_rub": 40000,
+    "acquisition_cost_rub": 32000,
+    "activation": 0.4,
+    "d30": 0.425,
+    "contribution": 51000,
+    "after_acquisition": 19000,
+    "per_activated": {
+      "revenue_rub": 455.0,
+      "variable_cost_rub": 200.0,
+      "acquisition_cost_rub": 160.0,
+      "contribution": 255.0,
+      "after_acquisition": 95.0
+    }
+  },
+  "segment_d30": {
+    "2026-08 teams": 0.6,
+    "2026-08 solo": 0.2,
+    "2026-09 teams": 0.65,
+    "2026-09 solo": 0.25
+  },
+  "september_standardized_august_mix": 0.5700000000000001,
+  "decomposition_pp": {
+    "within_at_aug_mix": 5,
+    "mix_at_sep_rates": -24,
+    "total": -19
+  },
+  "break_even_teams_activated": 137.93103448275863,
+  "max_recruited_14_days": 40,
+  "full_d30_earliest_last_recruit_day": 44,
+  "illustrative_fixed_cost_bridge": {
+    "august": -18000,
+    "september": -43000,
+    "two_months": -61000
+  }
+}

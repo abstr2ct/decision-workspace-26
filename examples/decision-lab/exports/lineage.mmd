@@ -1,0 +1,21 @@
+flowchart LR
+  s_cohorts["Источник: cohorts"]
+  s_interview["Источник: interview"]
+  s_metrics["Источник: metrics"]
+  s_product["Источник: product"]
+  c_barrier["barrier: hypothesis"]
+  s_interview --> c_barrier
+  c_capability["capability: demo_fact"]
+  s_product --> c_capability
+  c_pilot-lift["pilot-lift: forecast"]
+  c_restrictions["restrictions: demo_fact"]
+  s_product --> c_restrictions
+  c_teams-retention["teams-retention: demo_fact"]
+  s_metrics --> c_teams-retention
+  s_metrics --> c_teams-retention
+  c_unit-economics["unit-economics: demo_fact"]
+  s_metrics --> c_unit-economics
+  s_metrics --> c_unit-economics
+  s_cohorts --> s_metrics
+  decision["Решение"]
+  c_teams-retention --> decision

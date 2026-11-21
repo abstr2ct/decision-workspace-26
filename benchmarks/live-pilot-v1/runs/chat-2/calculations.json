@@ -1,0 +1,343 @@
+{
+  "input_sha256": {
+    "cohorts.csv": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "notes.md": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "product.md": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "request.md": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1"
+  },
+  "rows": [
+    {
+      "cohort": "2026-08",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 80,
+      "retained_d30": 48,
+      "matured_d30": true,
+      "revenue_rub": 48000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 8000,
+      "source_line": 2
+    },
+    {
+      "cohort": "2026-08",
+      "segment": "solo",
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 4,
+      "matured_d30": true,
+      "revenue_rub": 6000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "source_line": 3
+    },
+    {
+      "cohort": "2026-09",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 13,
+      "matured_d30": true,
+      "revenue_rub": 13000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "source_line": 4
+    },
+    {
+      "cohort": "2026-09",
+      "segment": "solo",
+      "eligible": 200,
+      "activated": 80,
+      "retained_d30": 20,
+      "matured_d30": true,
+      "revenue_rub": 24000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 16000,
+      "source_line": 5
+    },
+    {
+      "cohort": "2026-10",
+      "segment": "teams",
+      "eligible": 100,
+      "activated": 60,
+      "retained_d30": 9,
+      "matured_d30": false,
+      "revenue_rub": 7000,
+      "variable_cost_rub": 6000,
+      "acquisition_cost_rub": 10000,
+      "source_line": 6
+    }
+  ],
+  "mature_by_month": {
+    "2026-08": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 52,
+      "revenue_rub": 54000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "source_lines": [
+        2,
+        3
+      ],
+      "activation_rate": 0.5,
+      "retention_d30_rate": 0.52,
+      "retained_per_eligible": 0.26,
+      "contribution_before_acquisition_rub": 34000,
+      "contribution_after_acquisition_rub": 22000,
+      "revenue_per_activated_rub": 540.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 120.0,
+      "contribution_after_acquisition_per_activated_rub": 220.0,
+      "contribution_after_acquisition_per_eligible_rub": 110.0
+    },
+    "2026-09": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 33,
+      "revenue_rub": 37000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "source_lines": [
+        4,
+        5
+      ],
+      "activation_rate": 0.3333333333333333,
+      "retention_d30_rate": 0.33,
+      "retained_per_eligible": 0.11,
+      "contribution_before_acquisition_rub": 17000,
+      "contribution_after_acquisition_rub": -3000,
+      "revenue_per_activated_rub": 370.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 200.0,
+      "contribution_after_acquisition_per_activated_rub": -30.0,
+      "contribution_after_acquisition_per_eligible_rub": -10.0
+    }
+  },
+  "mature_by_segment": {
+    "solo": {
+      "eligible": 300,
+      "activated": 100,
+      "retained_d30": 24,
+      "revenue_rub": 30000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 20000,
+      "source_lines": [
+        3,
+        5
+      ],
+      "activation_rate": 0.3333333333333333,
+      "retention_d30_rate": 0.24,
+      "retained_per_eligible": 0.08,
+      "contribution_before_acquisition_rub": 10000,
+      "contribution_after_acquisition_rub": -10000,
+      "revenue_per_activated_rub": 300.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 200.0,
+      "contribution_after_acquisition_per_activated_rub": -100.0,
+      "contribution_after_acquisition_per_eligible_rub": -33.333333333333336
+    },
+    "teams": {
+      "eligible": 200,
+      "activated": 100,
+      "retained_d30": 61,
+      "revenue_rub": 61000,
+      "variable_cost_rub": 20000,
+      "acquisition_cost_rub": 12000,
+      "source_lines": [
+        2,
+        4
+      ],
+      "activation_rate": 0.5,
+      "retention_d30_rate": 0.61,
+      "retained_per_eligible": 0.305,
+      "contribution_before_acquisition_rub": 41000,
+      "contribution_after_acquisition_rub": 29000,
+      "revenue_per_activated_rub": 610.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 120.0,
+      "contribution_after_acquisition_per_activated_rub": 290.0,
+      "contribution_after_acquisition_per_eligible_rub": 145.0
+    }
+  },
+  "mature_by_cell": {
+    "2026-08/teams": {
+      "eligible": 100,
+      "activated": 80,
+      "retained_d30": 48,
+      "revenue_rub": 48000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 8000,
+      "source_lines": [
+        2
+      ],
+      "activation_rate": 0.8,
+      "retention_d30_rate": 0.6,
+      "retained_per_eligible": 0.48,
+      "contribution_before_acquisition_rub": 32000,
+      "contribution_after_acquisition_rub": 24000,
+      "revenue_per_activated_rub": 600.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 100.0,
+      "contribution_after_acquisition_per_activated_rub": 300.0,
+      "contribution_after_acquisition_per_eligible_rub": 240.0
+    },
+    "2026-08/solo": {
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 4,
+      "revenue_rub": 6000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "source_lines": [
+        3
+      ],
+      "activation_rate": 0.2,
+      "retention_d30_rate": 0.2,
+      "retained_per_eligible": 0.04,
+      "contribution_before_acquisition_rub": 2000,
+      "contribution_after_acquisition_rub": -2000,
+      "revenue_per_activated_rub": 300.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 200.0,
+      "contribution_after_acquisition_per_activated_rub": -100.0,
+      "contribution_after_acquisition_per_eligible_rub": -20.0
+    },
+    "2026-09/teams": {
+      "eligible": 100,
+      "activated": 20,
+      "retained_d30": 13,
+      "revenue_rub": 13000,
+      "variable_cost_rub": 4000,
+      "acquisition_cost_rub": 4000,
+      "source_lines": [
+        4
+      ],
+      "activation_rate": 0.2,
+      "retention_d30_rate": 0.65,
+      "retained_per_eligible": 0.13,
+      "contribution_before_acquisition_rub": 9000,
+      "contribution_after_acquisition_rub": 5000,
+      "revenue_per_activated_rub": 650.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 200.0,
+      "contribution_after_acquisition_per_activated_rub": 250.0,
+      "contribution_after_acquisition_per_eligible_rub": 50.0
+    },
+    "2026-09/solo": {
+      "eligible": 200,
+      "activated": 80,
+      "retained_d30": 20,
+      "revenue_rub": 24000,
+      "variable_cost_rub": 16000,
+      "acquisition_cost_rub": 16000,
+      "source_lines": [
+        5
+      ],
+      "activation_rate": 0.4,
+      "retention_d30_rate": 0.25,
+      "retained_per_eligible": 0.1,
+      "contribution_before_acquisition_rub": 8000,
+      "contribution_after_acquisition_rub": -8000,
+      "revenue_per_activated_rub": 300.0,
+      "variable_cost_per_activated_rub": 200.0,
+      "acquisition_cost_per_activated_rub": 200.0,
+      "contribution_after_acquisition_per_activated_rub": -100.0,
+      "contribution_after_acquisition_per_eligible_rub": -40.0
+    }
+  },
+  "mature_all": {
+    "eligible": 500,
+    "activated": 200,
+    "retained_d30": 85,
+    "revenue_rub": 91000,
+    "variable_cost_rub": 40000,
+    "acquisition_cost_rub": 32000,
+    "source_lines": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "activation_rate": 0.4,
+    "retention_d30_rate": 0.425,
+    "retained_per_eligible": 0.17,
+    "contribution_before_acquisition_rub": 51000,
+    "contribution_after_acquisition_rub": 19000,
+    "revenue_per_activated_rub": 455.0,
+    "variable_cost_per_activated_rub": 200.0,
+    "acquisition_cost_per_activated_rub": 160.0,
+    "contribution_after_acquisition_per_activated_rub": 95.0,
+    "contribution_after_acquisition_per_eligible_rub": 38.0
+  },
+  "immature_excluded": [
+    {
+      "source_line": 6,
+      "cohort": "2026-10",
+      "reason": "D30 not mature; no final D30 estimate or economic comparison"
+    }
+  ],
+  "decomposition": {
+    "august_weights": {
+      "solo": 0.2,
+      "teams": 0.8
+    },
+    "september_weights": {
+      "solo": 0.8,
+      "teams": 0.2
+    },
+    "september_at_august_weights": 0.5700000000000001,
+    "within_change_pp": 5.000000000000003,
+    "mix_change_pp": -24.000000000000004,
+    "total_change_pp": -19.0
+  },
+  "economics_scenarios": {
+    "monthly_fixed_cost_rub": 40000,
+    "team_activated_break_even_at_blended_first30_contribution": 138,
+    "team_eligible_break_even_at_50pct_activation": 276,
+    "four_week_intake_cap_eligible": 80,
+    "four_week_intake_first30_contribution_rub": {
+      "august_team_behavior": 19200.0,
+      "september_team_behavior": 4000.0,
+      "blended_team_behavior": 11600.0
+    },
+    "scope": "Illustrative acquisition-flow coverage only; first 30 days are not LTV or calendar-month profit. Existing recurring revenue and fixed-cost attribution are unknown."
+  },
+  "d30_power_planning": {
+    "baseline": 0.6,
+    "target": 0.75,
+    "alpha_two_sided": 0.05,
+    "power": 0.8,
+    "sample_per_arm_unrounded": 151.86886211727608,
+    "sample_per_arm": 152,
+    "activated_total": 304,
+    "assumed_activation": 0.5,
+    "eligible_per_week_total_cap": 20,
+    "recruitment_weeks_at_cap": 30.4,
+    "activation_window_days": 7,
+    "observation_days_after_activation": 30,
+    "minimum_planning_calendar_days": 250,
+    "interpretation": "Planning assumptions, not evidence of effect; exact design and actual recruitment may require more time."
+  },
+  "fourteen_day_diagnostic": {
+    "recruitment_days": 7,
+    "eligible_cap": 20,
+    "activation_window_days": 7,
+    "latest_activation_day": 14,
+    "latest_d30_day": 44,
+    "ux_subset_max": 8,
+    "statistical_efficacy_claim": false
+  },
+  "proposed_budget_rub": {
+    "analytics_and_instrumentation": 6000,
+    "ux_including_recruitment_and_incentives": 8000,
+    "one_small_prototype": 6000,
+    "message_comprehension_and_analysis": 5000,
+    "reserve": 5000
+  },
+  "execution_costs": {
+    "model_api_cost_rub": null,
+    "human_labor_cost_rub": null,
+    "billing_data_available": false,
+    "note": "Unknown costs are not zero. No external actions or paid study were performed."
+  }
+}

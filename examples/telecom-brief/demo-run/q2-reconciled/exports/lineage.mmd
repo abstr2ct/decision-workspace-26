@@ -1,0 +1,23 @@
+flowchart LR
+  s_assessment-reconciled["Источник: assessment-reconciled"]
+  s_assessment-reported["Источник: assessment-reported"]
+  s_brief-extract["Источник: brief-extract"]
+  s_family-pilot["Источник: family-pilot"]
+  s_results-reconciled["Источник: results-reconciled"]
+  s_results-reported["Источник: results-reported"]
+  c_annual-gap["annual-gap: demo_fact"]
+  s_brief-extract --> c_annual-gap
+  c_existing-operation["existing-operation: demo_fact"]
+  s_brief-extract --> c_existing-operation
+  c_reconciled-readout["reconciled-readout: demo_fact"]
+  s_assessment-reconciled --> c_reconciled-readout
+  s_assessment-reconciled --> c_reconciled-readout
+  c_reported-readout["reported-readout: demo_fact"]
+  s_assessment-reported --> c_reported-readout
+  s_family-pilot --> s_assessment-reconciled
+  s_results-reconciled --> s_assessment-reconciled
+  s_family-pilot --> s_assessment-reported
+  s_results-reported --> s_assessment-reported
+  decision["Решение"]
+  c_existing-operation --> decision
+  c_reconciled-readout --> decision

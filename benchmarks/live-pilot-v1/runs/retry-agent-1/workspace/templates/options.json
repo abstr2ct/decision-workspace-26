@@ -1,0 +1,11 @@
+{
+  "options": [
+    {"id": "keep", "kind": "status_quo", "name": "Оставить как есть", "audience": "", "changes": "", "economics": "", "objections": [], "validation": "", "claims": []},
+    {"id": "change", "kind": "focus", "name": "", "audience": "", "changes": "", "economics": "", "objections": [], "validation": "", "claims": []},
+    {"id": "close", "kind": "shutdown", "name": "Закрыть направление", "audience": "", "changes": "", "economics": "", "objections": [], "validation": "", "claims": []}
+  ],
+  "comparison": "",
+  "recommendation": "",
+  "why_not_others": "",
+  "reversal_conditions": []
+}

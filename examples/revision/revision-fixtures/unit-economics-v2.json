@@ -1,0 +1,14 @@
+{
+  "id": "unit-economics-v2",
+  "type": "demo_fact",
+  "text": "Исправленный синтетический вклад teams: 32 000 - 24 000 - 20 000 = -12 000 RUB до fixed costs; solo -6 000 RUB.",
+  "evidence": [
+    {
+      "source": "metrics-v2",
+      "locator": "line:1",
+      "quote": "\"contribution_after_acquisition_rub\":-12000.0"
+    }
+  ],
+  "confidence": "medium",
+  "confidence_reason": "Fixed costs и стоимость закрытия всё ещё неизвестны."
+}

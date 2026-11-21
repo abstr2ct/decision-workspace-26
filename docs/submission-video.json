@@ -1,0 +1,59 @@
+{
+  "duration_seconds_approx": 182.17,
+  "duration_seconds_container": 182.17,
+  "audio": "Russian narration recorded by the author",
+  "resolution": [
+    1600,
+    900
+  ],
+  "chapters": [
+    {
+      "title": "Стратег Фабрики продуктов",
+      "start": 0.0
+    },
+    {
+      "title": "Запрос руководителя",
+      "start": 12.64
+    },
+    {
+      "title": "Четыре варианта",
+      "start": 30.49
+    },
+    {
+      "title": "Стратегии и план проверки",
+      "start": 50.41
+    },
+    {
+      "title": "Пауза и продолжение",
+      "start": 74.34
+    },
+    {
+      "title": "Первая выгрузка",
+      "start": 93.23
+    },
+    {
+      "title": "Отзыв основания",
+      "start": 108.07
+    },
+    {
+      "title": "Пересчёт по тому же плану",
+      "start": 127.64
+    },
+    {
+      "title": "Карточка владельца",
+      "start": 144.5
+    },
+    {
+      "title": "Воспроизводимость",
+      "start": 162.23
+    }
+  ],
+  "sha256": "975fee22b978c9392b097840d5ebe6fd77c91b8553c0542386af42029d56943d",
+  "media_checks": [
+    "H.264 1600x900",
+    "AAC 48000 Hz",
+    "Under 10 min"
+  ],
+  "loudness_lufs": -16.26,
+  "true_peak_dbtp": -1.28
+}

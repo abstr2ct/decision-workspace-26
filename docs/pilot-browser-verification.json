@@ -1,0 +1,10 @@
+{
+  "browser": "Edge via Playwright, offline",
+  "checks": [
+    "Unbounded loaded from embedded WOFF2",
+    "Comparison and updated evidence open",
+    "Dashboard tabs, filtering and evidence link work",
+    "390px no horizontal overflow in comparison, card, dashboard or scenario lab",
+    "No browser errors or HTTP requests"
+  ]
+}

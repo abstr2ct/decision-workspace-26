@@ -1,0 +1,32 @@
+flowchart LR
+  s_analyst-correction["Источник: analyst-correction"]
+  s_cohort-metrics["Источник: cohort-metrics"]
+  s_cohorts["Источник: cohorts"]
+  s_cohorts-corrected["Источник: cohorts-corrected"]
+  s_corrected-period-comparison["Источник: corrected-period-comparison"]
+  s_notes["Источник: notes"]
+  s_product["Источник: product"]
+  s_request["Источник: request"]
+  c_capability["capability: demo_fact"]
+  s_product --> c_capability
+  c_cohort-summary["cohort-summary: demo_fact"]
+  s_cohort-metrics --> c_cohort-summary
+  c_corrected-contribution["corrected-contribution: demo_fact"]
+  s_cohorts-corrected --> c_corrected-contribution
+  c_corrected-d30["corrected-d30: demo_fact"]
+  s_corrected-period-comparison --> c_corrected-d30
+  s_corrected-period-comparison --> c_corrected-d30
+  c_correction-confirmed["correction-confirmed: demo_fact"]
+  s_analyst-correction --> c_correction-confirmed
+  c_fixed["fixed: demo_fact"]
+  s_product --> c_fixed
+  c_roadmap["roadmap: demo_fact"]
+  s_product --> c_roadmap
+  c_ux["ux: demo_fact"]
+  s_notes --> c_ux
+  s_cohorts --> s_cohort-metrics
+  s_cohorts-corrected --> s_corrected-period-comparison
+  decision["Решение"]
+  c_corrected-d30 --> decision
+  c_corrected-contribution --> decision
+  c_capability --> decision

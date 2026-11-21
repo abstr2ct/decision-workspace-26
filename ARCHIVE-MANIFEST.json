@@ -1,0 +1,3882 @@
+[
+  {
+    "path": "product-strategist/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/.env.example",
+    "sha256": "2f22cc50aef5bfb2646a697822b941067a0d5cd2dd677bdae3e2b868b3a48fef",
+    "bytes": 222
+  },
+  {
+    "path": "product-strategist/.github/workflows/check.yml",
+    "sha256": "c9f783adaadffee44a298daede4362f056f3a75c862a4cf498a4d9475219b21d",
+    "bytes": 658
+  },
+  {
+    "path": "product-strategist/.gitignore",
+    "sha256": "df540fffb1a46a7cc3bd65a5e043ecefa51c582ba21320c79584948611f05915",
+    "bytes": 79
+  },
+  {
+    "path": "product-strategist/AGENTS.md",
+    "sha256": "a975d6b1e8a7988d5e027cae6fc8580d4639dadcbdff20fb93751ce6476926d8",
+    "bytes": 14787
+  },
+  {
+    "path": "product-strategist/README.md",
+    "sha256": "3ef7f0f0b3983488675c0e10b76b0e789423c19747ab9ab021da36e017ed1e03",
+    "bytes": 17793
+  },
+  {
+    "path": "product-strategist/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/dispatch.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+    "bytes": 2
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/frozen-agent/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/inputs/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/inputs/correction.md",
+    "sha256": "6cc86ba52157b771e2511d7ab853b23b5c252377bcce48a3062f3297ddf037c3",
+    "bytes": 1285
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/inputs/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/inputs/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/inputs/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/interruptions.json",
+    "sha256": "97e95b59cebc6735168ba8043f3049e817c3d5507165ce25144082569f1e1b3e",
+    "bytes": 9454
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/measurement-notes.md",
+    "sha256": "00ceee1721d0262784b6c88ab1a3499e0f54c65b5ce7b2cb1ec130f46ff2ff42",
+    "bytes": 3557
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/protocol-amendment.md",
+    "sha256": "562c003dd7e2fd768d081c0b605999a5bcbac7d6d021a47333d3d259f2b92d7c",
+    "bytes": 504
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/protocol.json",
+    "sha256": "a6276752cd0c2876bf788207bf9ed07a694ce0d13dd2d37f9a603062b0997771",
+    "bytes": 3026
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/retry-input-manifest.json",
+    "sha256": "c57fc4c4ef081ac661080a8bdf3ffb33fa13dbb2dbb79769933b77cc3f1d0900",
+    "bytes": 430
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/retry-material-verification.json",
+    "sha256": "72bcbaba050f0cb42c0f4a459ac4b0aa9c4557ed37e0863d472c932e4a045fe8",
+    "bytes": 4185
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/author_case.py",
+    "sha256": "360e8e548c2682a66a1e14aa9729605b92ac5ea4df69e0317011ac732222abbb",
+    "bytes": 32779
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/calculations-run.txt",
+    "sha256": "644c7bca23ac36831f0f01e1200105674e41f5503ffac7f78a5d2dceff256bd5",
+    "bytes": 9926
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/calculations.json",
+    "sha256": "f55b0bdab7ac42fd78e0615ace1c39afb0adf00f6d94b3408a17b5e8b9080819",
+    "bytes": 9924
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/calculations.py",
+    "sha256": "916dd6bed4cf1cd96164b4b527581527e50f1b48bec4d04c00a19f95d9152c40",
+    "bytes": 4295
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/cli-log.jsonl",
+    "sha256": "2419bfa071f33ffeab40c102834de17b6e30df6b54f1e2b2c404bf8bfdc12fe4",
+    "bytes": 53755
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/timing.json",
+    "sha256": "234ac9c3d7d5c640d9c3954842790a66673eef68423cb663968c974c1ae00eab",
+    "bytes": 60
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-1/workspace/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-2/workspace/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/agent-3/workspace/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-1/calculate.py",
+    "sha256": "32d061a2b8df4d1930dbcc0366b8944764059161a66d23dc8c1d3c37d2fc3e92",
+    "bytes": 10123
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-1/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-1/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-1/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-1/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-1/timing.json",
+    "sha256": "f8f2858530b2b06d68216aeabe9471fa916b00ff0c830dc4431a11f7d1324b49",
+    "bytes": 60
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/calculate.py",
+    "sha256": "ea6cb1ca66091947b7c237bea228c491ce8fb5907e8bc45a0168e1e79f190ee1",
+    "bytes": 9198
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/calculations.json",
+    "sha256": "a5ea4b01194c26868b5da5b20cadabb1de7d8c15f4ffaf5254f21d53310e490f",
+    "bytes": 11101
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/calculations.md",
+    "sha256": "efea11d45ac554fa9ad962d1e82115e1e5b8fffdd06d0fe606b7f2798c74e40f",
+    "bytes": 2008
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/handoff.md",
+    "sha256": "f3a36a5a9f85ca3043dd3bb7939d5bc9504705741c0dadebd7ba6f9c02fe0b83",
+    "bytes": 9492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/report.md",
+    "sha256": "40f6b6c89b9c8f06b75d4ec8d50f52cf500f329b7bce0854df61a9d1ee5f1205",
+    "bytes": 14311
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-2/timing.json",
+    "sha256": "51781ed4f1f767612b6384673c89e1f2328b5589f9b89959621166ee42d8e44c",
+    "bytes": 60
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-3/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-3/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-3/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/chat-3/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/audit.json",
+    "sha256": "032518c061470262ba4595587e71b6f90fcb94e639f91ee5d241b3c4b7cfdada",
+    "bytes": 454
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/brief.json",
+    "sha256": "f0f4ad26d8f4684642ad500f764ddb730d678bfed6965b9348488d1f0295517f",
+    "bytes": 1050
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/capability.json",
+    "sha256": "a2be87b485634a191e8e8f919528b8bf4f8ff8151c9ef9c863f92bdc0f26f131",
+    "bytes": 652
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/cohort-summary.json",
+    "sha256": "3798b31b672a180f19822ec8ccb6989a94330c00b20c6cdbc3d00b47596f2d93",
+    "bytes": 1957
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/fixed.json",
+    "sha256": "30e52f6c11d9863976cecbbc5c1c90802bac6aa412a6f2cd98b8309335f5f173",
+    "bytes": 745
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/options.json",
+    "sha256": "2e286c6b1c7f4fa837eb3e2bc27d1564452297a871f6add6abb5a5e37498d187",
+    "bytes": 3787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/research.json",
+    "sha256": "d4a954ec24b1643846c747db3ae2ad9e1cc021a70365dcf601223ddc11b18d47",
+    "bytes": 1823
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/roadmap.json",
+    "sha256": "05ce1bcf55627c70a1ab5f0a8fd4669921d48f99d9542961bdae9ab44d6c4236",
+    "bytes": 583
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/authored/ux.json",
+    "sha256": "5b70a8154642db443413247ab2360ca9e45595b58623a547f9e826dd4d5b5cad",
+    "bytes": 790
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/calculate.py",
+    "sha256": "8ec6f67c9e59e0a98fcc6585713f955f9d150d4a5c4facaa069072fd6721e15d",
+    "bytes": 2438
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/calculations.json",
+    "sha256": "730b2561609d4a492eef975246c6674f4f53617aab6d7a33ae9a9c0a4f17e804",
+    "bytes": 5049
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c.json",
+    "sha256": "0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c",
+    "bytes": 3018
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7.json",
+    "sha256": "0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7",
+    "bytes": 1383
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999.json",
+    "sha256": "3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999",
+    "bytes": 2915
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4.json",
+    "sha256": "51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4",
+    "bytes": 941
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f.json",
+    "sha256": "62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f",
+    "bytes": 1512
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e.json",
+    "sha256": "6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e",
+    "bytes": 1563
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97.json",
+    "sha256": "6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97",
+    "bytes": 785
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750.json",
+    "sha256": "7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750",
+    "bytes": 2950
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2.json",
+    "sha256": "9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2",
+    "bytes": 1551
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e.json",
+    "sha256": "9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e",
+    "bytes": 1404
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/blobs/f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94.json",
+    "sha256": "f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94",
+    "bytes": 1519
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/exports/audit.json",
+    "sha256": "814f2a95b4f8c7d3d12e764cf330abeb7f430167742e9fa6c33d35addf983e12",
+    "bytes": 440
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/exports/dashboard.html",
+    "sha256": "7cb60c9586b2eded4e073fde5769a3a4f540d064369d4439226414e5dd89aaa5",
+    "bytes": 29726
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/exports/lineage.mmd",
+    "sha256": "8d1a72adc7c30266b8f91c7a49a9b8081129ed990c5d11b9c17bacab6a14cda0",
+    "bytes": 731
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/exports/strategy.md",
+    "sha256": "9cf1df1d08ac8c3e2c7b3d54bd5e21a6f52752e54428ea2361d52cb9d14dd5d8",
+    "bytes": 13388
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/checkpoint/state.json",
+    "sha256": "856a841dcb9d0a317e5c820e7fcfb80f3d2b1c27246f888dbba32f10de488dba",
+    "bytes": 23100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/context.json",
+    "sha256": "3a8eee53e53e6ec0d290b6b5afc104a72ace4e7034153675b2646c3a446144a5",
+    "bytes": 4069
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/finish_workflow.py",
+    "sha256": "b081767159fd08703324335de232ebcf8c0e03bc5c52e60bad14fea9cbf63569",
+    "bytes": 2523
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/handoff.md",
+    "sha256": "04bb9469e3aa90c6bdbb0a0c8ff5c1168825a072a8071e2af9852f2dc1a693f3",
+    "bytes": 5795
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c.json",
+    "sha256": "0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c",
+    "bytes": 3018
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7.json",
+    "sha256": "0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7",
+    "bytes": 1383
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999.json",
+    "sha256": "3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999",
+    "bytes": 2915
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4.json",
+    "sha256": "51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4",
+    "bytes": 941
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f.json",
+    "sha256": "62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f",
+    "bytes": 1512
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e.json",
+    "sha256": "6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e",
+    "bytes": 1563
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97.json",
+    "sha256": "6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97",
+    "bytes": 785
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750.json",
+    "sha256": "7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750",
+    "bytes": 2950
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2.json",
+    "sha256": "9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2",
+    "bytes": 1551
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e.json",
+    "sha256": "9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e",
+    "bytes": 1404
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/blobs/f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94.json",
+    "sha256": "f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94",
+    "bytes": 1519
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/exports/audit.json",
+    "sha256": "814f2a95b4f8c7d3d12e764cf330abeb7f430167742e9fa6c33d35addf983e12",
+    "bytes": 440
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/exports/dashboard.html",
+    "sha256": "7cb60c9586b2eded4e073fde5769a3a4f540d064369d4439226414e5dd89aaa5",
+    "bytes": 29726
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/exports/lineage.mmd",
+    "sha256": "8d1a72adc7c30266b8f91c7a49a9b8081129ed990c5d11b9c17bacab6a14cda0",
+    "bytes": 731
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/exports/strategy.md",
+    "sha256": "9cf1df1d08ac8c3e2c7b3d54bd5e21a6f52752e54428ea2361d52cb9d14dd5d8",
+    "bytes": 13388
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/project/state.json",
+    "sha256": "856a841dcb9d0a317e5c820e7fcfb80f3d2b1c27246f888dbba32f10de488dba",
+    "bytes": 23100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/report.md",
+    "sha256": "abcb54839583bfdd7a45aa50aa4d6e9d8d8a83d1146c861c967466a820c3e7ea",
+    "bytes": 15062
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/resume.json",
+    "sha256": "1cad2a8b75cd846e8540954a0177047b3ed4f2a81dd749b0ef91ccd549b20798",
+    "bytes": 4873
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/review.md",
+    "sha256": "fb4987eb2efd547751c7f9a6b7c4dbe1371afc14a3076a025ad62f6e9521f0c0",
+    "bytes": 3939
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/timing.json",
+    "sha256": "6703baca2e5d6e12aba642405d9e15ecac7fe47bc20d6d42798cf8a3765877db",
+    "bytes": 161
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/worker-prompt.txt",
+    "sha256": "8dcbf64d28ffb08da0e2137d296024bb0fe300601ff1b9284c2368ac15af41e5",
+    "bytes": 988
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workflow-log.json",
+    "sha256": "3055345166645e3798e5c0a5641faf7ac6c48d622de3972f8d9dd7211e235f11",
+    "bytes": 46424
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workflow.py",
+    "sha256": "62db191380e20a320dfa69d77fea3d9a1bc0bee4e7b6bf2163346d8f1c47d3fb",
+    "bytes": 7809
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-1/workspace/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/calculate.py",
+    "sha256": "6cc91d4a88678185e884415becc2699b9ec5bd3a774666a3f72799d5b6448ef9",
+    "bytes": 2507
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/calculations.json",
+    "sha256": "2676dc03d2fde9a4d7ced0c2f59422c25d74668178df984048163bfec6c24707",
+    "bytes": 4499
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7.json",
+    "sha256": "0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7",
+    "bytes": 1383
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f.json",
+    "sha256": "62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f",
+    "bytes": 1512
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97.json",
+    "sha256": "6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97",
+    "bytes": 785
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e.json",
+    "sha256": "9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e",
+    "bytes": 1404
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/blobs/f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94.json",
+    "sha256": "f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94",
+    "bytes": 1519
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/checkpoint/state.json",
+    "sha256": "7005fe8f6ad984dd533ed02619edf538cada0e0635d2ce09cd08a5b06d4a03a3",
+    "bytes": 3928
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/report.md",
+    "sha256": "93f82166d76b03af696970639d652bf441f36075896253a0320b1bc1f6f2ccf6",
+    "bytes": 13924
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/timing.json",
+    "sha256": "534cecc97f2fe52b1ea239eb883fc04b06bb13b37a25160a1ca92111414f18fc",
+    "bytes": 77
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/worker-prompt.txt",
+    "sha256": "644e57b1ba8eba30b0a5ec45749797174bbf5333eb37a4417a390f4f02ae4a98",
+    "bytes": 988
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-2/workspace/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/worker-prompt.txt",
+    "sha256": "1d6d0c3fb79c3258367c9ba11b5d9ff64d260b25ebf323a46d04491c1e97823c",
+    "bytes": 988
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/.agents/skills/decision-lab/SKILL.md",
+    "sha256": "c78d16e02744fc01b7811406abc0d4e088e83fdaa52520764190fcec123ab7e8",
+    "bytes": 5213
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/.agents/skills/decision-revision/SKILL.md",
+    "sha256": "78f554a9d4404d16bf254ecb5b90373f30fadc15fe6b4993461d7e24c2010ad9",
+    "bytes": 1477
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/.agents/skills/strategy-review/SKILL.md",
+    "sha256": "80ebd2c001ac51238ef1c6b0623616d4bd7916eb4e57c77dd6a63e4770a3e7e6",
+    "bytes": 1475
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/.cursor/rules/strategist.mdc",
+    "sha256": "1b53f86fddbaafe33c3b9f9f15098747f6dfbac1459ef887ade0639e9ae04e7c",
+    "bytes": 409
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/AGENTS.md",
+    "sha256": "b14c4e8a4818af0a97c5592fe4e7c9cd6baafea0b8fa5194358ee94ac4d3a0ed",
+    "bytes": 12326
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/README.md",
+    "sha256": "48429f4c7dbcc00969071b5f0deca0d326ba9ee6334e6eeb51e374b3da335148",
+    "bytes": 15527
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/START.md",
+    "sha256": "dad6d8111092b3fe6be0e210ea3b85811e839042569e7f95645dc3c52d243254",
+    "bytes": 2787
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/knowledge/research.md",
+    "sha256": "ca8bb43698dbacc0f30beafa728a4a058b27a7b8aac61a60d100a0e1cdc20893",
+    "bytes": 4878
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/__init__.py",
+    "sha256": "6d70998a81305d151a8e1011b09628d3b5b9446f523e31f3db9f5aa8b0073502",
+    "bytes": 100
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/analytics.py",
+    "sha256": "a28f247567755de5472af9c0e4d8e05267e831f23294efc05c6853dff1757c20",
+    "bytes": 4935
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/cli.py",
+    "sha256": "761d545f8e2057b734967109d3700c3c137ecfe8b3fad0213b84bdf4a52cfccb",
+    "bytes": 14960
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/dashboard.py",
+    "sha256": "137d8ab00ba393414a8bca7995c8454d04d3ee5e1fcc4330838961f3ea97cf0e",
+    "bytes": 12215
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/lab_report.py",
+    "sha256": "b04a88228877b96f2d5727f92502999c48bf475587624f343ecd996dc65fdfa3",
+    "bytes": 14766
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/mcp_server.py",
+    "sha256": "d8739c7bcc5d3008bbce6c63d1f54010b24a09f79620971c089c702a81b22b6b",
+    "bytes": 6781
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-agent-3/workspace/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/calculate.py",
+    "sha256": "1f2537c5ca6f045a7d6fea934d000665071b7d51203e5c34474f8e08026bbe6b",
+    "bytes": 3145
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/calculations.csv",
+    "sha256": "78c1b5c0c0fd716be293813bc80d6468c501d8f11cf071627f5d78467af2c259",
+    "bytes": 258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/calculations.json",
+    "sha256": "60cd829064d504f10af5938bcf67df0a954f052d97d4bf0684e33b6b46a5ceb7",
+    "bytes": 6546
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/handoff.md",
+    "sha256": "18899df332ab961296f9ca16d2a0354d5a3da2af42d25a576bd691a520710b77",
+    "bytes": 6886
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/report.md",
+    "sha256": "2ae07fa502b855515defda8a86c6a30f09a20cdad1b79d6a291920caabf1caa0",
+    "bytes": 13836
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/timing.json",
+    "sha256": "66d3f3396465d4d877341d0e62eca6bc6fdbfdda1bf033eddf9cf3d0e09d7389",
+    "bytes": 125
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-1/worker-prompt.txt",
+    "sha256": "bd9eef7dcc46f957acf1ad035de48e82b5c9ca306cf4c6c235b7593554b9ec4e",
+    "bytes": 815
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/calculate.py",
+    "sha256": "9580b552059a67c031e28ea74a706e6862f95154050ad010eba930c8b71b1516",
+    "bytes": 3333
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/calculation-run.txt",
+    "sha256": "fce462dde45c541c195defce41c97ad634ca90ae2e7604533135cd6ec3c86d74",
+    "bytes": 5567
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/calculations.json",
+    "sha256": "a892cd0387565b75346f9e75e757b02aac3ddf3d3b8497b60b74c7a4ed4e09cc",
+    "bytes": 5565
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/handoff.md",
+    "sha256": "292d214f567019db2ebe35211f27b158efe710cbf27725df9b01a0a38da1cc80",
+    "bytes": 5133
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/metrics.csv",
+    "sha256": "49b886d238cb6de2431ca1654d10bf31b12296801d47163112a2f709ee3d4bbc",
+    "bytes": 479
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/report.md",
+    "sha256": "56311744f95624d10b17e9769de20d48c2bbd30214ad965ca8721c60da8e3348",
+    "bytes": 13221
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/timing.json",
+    "sha256": "faa791721cddb8561e8ae5df4a4cbddfcece874150412e62612ee396f6ea2c94",
+    "bytes": 125
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/verification.json",
+    "sha256": "75bcbeb22dbf93b58269845fef7b9d90b684553422fa218704987b23b9f9a67c",
+    "bytes": 120
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/verify.py",
+    "sha256": "c3a7f8636077b379a03bd0667e3d6ab9405e553890c3d122dbe8f51e667245f1",
+    "bytes": 1185
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-2/worker-prompt.txt",
+    "sha256": "d480eb51d02a9f7d94b39395c84ec221af0a8e3762999891f19b35a7b855c71c",
+    "bytes": 815
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/calculate.py",
+    "sha256": "83ebe8f67295f117043ab20a20e0e373f06aaf69b33697722d873f538320a86d",
+    "bytes": 1625
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/calculations.json",
+    "sha256": "5e4c75a3f1d5545fece9717f35181112a9c33126b546b1d8c9f4cf3e07468aa7",
+    "bytes": 3301
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/handoff.md",
+    "sha256": "f116379bd5d832f7c5b5249f205c4a0610701c70c89f3f140135de3e127caa09",
+    "bytes": 2566
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/materials/cohorts.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/materials/notes.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/materials/product.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/materials/request.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/report.md",
+    "sha256": "81850b91249d8b30d3ba53e7cb8594d562a5d2ee0cdbc9d9b3398e22256c733e",
+    "bytes": 11591
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/timing.json",
+    "sha256": "35cd737715ba22152224179860e88fda30463ddd8783308b6089ff1657b167fd",
+    "bytes": 117
+  },
+  {
+    "path": "product-strategist/benchmarks/live-pilot-v1/runs/retry-chat-3/worker-prompt.txt",
+    "sha256": "ccb13a1e2e2920a4930b658ae4ec95c6500e52389bb71eeccbcfe61369775168",
+    "bytes": 815
+  },
+  {
+    "path": "product-strategist/demo/fixtures.py",
+    "sha256": "81e4e03e2979b0623aea1acb9dabf13e77581bfcf2c034409b155ee9d07440d4",
+    "bytes": 21937
+  },
+  {
+    "path": "product-strategist/demo/inputs/cohorts.csv",
+    "sha256": "f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a",
+    "bytes": 341
+  },
+  {
+    "path": "product-strategist/demo/inputs/product.md",
+    "sha256": "a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e",
+    "bytes": 1453
+  },
+  {
+    "path": "product-strategist/demo/inputs/synthetic-interview.md",
+    "sha256": "500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80",
+    "bytes": 1159
+  },
+  {
+    "path": "product-strategist/demo/lab.py",
+    "sha256": "706805a364a876fc5caedebfce05ef4b49424b576fade88cb1fc37b18ac45c58",
+    "bytes": 3812
+  },
+  {
+    "path": "product-strategist/demo/lab_fixtures.py",
+    "sha256": "b0fe7b3e89bb62b53adde0616d94b634c452bfb0d075f878d77bf6be036b840a",
+    "bytes": 7086
+  },
+  {
+    "path": "product-strategist/demo/revise.py",
+    "sha256": "ad3a2dc3a2502af97185335469b1d89c92ff9af0cd4d3a3c50e06d5ede5238eb",
+    "bytes": 12474
+  },
+  {
+    "path": "product-strategist/demo/run.py",
+    "sha256": "2f0411b64052a5dea065c0478ad67dddb322b1c46f8be59045de5bb7d749a615",
+    "bytes": 5434
+  },
+  {
+    "path": "product-strategist/docs/architecture.md",
+    "sha256": "3f972f3bbbe2f20ae30c832c7c5e64aa177c07898e4d58cd2007cf353f25e37f",
+    "bytes": 8327
+  },
+  {
+    "path": "product-strategist/docs/browser-verification-v0.3.json",
+    "sha256": "275ae40f478f0806a9737ea4c76107c8aff71363a412bfa1e73fe90a088b57a5",
+    "bytes": 523
+  },
+  {
+    "path": "product-strategist/docs/browser-verification.json",
+    "sha256": "071e974a74d89b832438e710c3123c0835b7fbc710b806916fb0360ff323d64b",
+    "bytes": 384
+  },
+  {
+    "path": "product-strategist/docs/card-verification.json",
+    "sha256": "2d5297dd1948c512e36cd60afb13a50b376a685f692d75ad00f0570564f549cb",
+    "bytes": 201
+  },
+  {
+    "path": "product-strategist/docs/changes-v0.2.md",
+    "sha256": "167c0dec513746e843f75609e364bb69641407302275b3b78b11053bac26e731",
+    "bytes": 2730
+  },
+  {
+    "path": "product-strategist/docs/changes-v0.3.md",
+    "sha256": "cfe6b6e349cc2ba679916972b36c7daa8ee168fb4b5083ff23b487c4114197af",
+    "bytes": 2766
+  },
+  {
+    "path": "product-strategist/docs/changes-v0.4.md",
+    "sha256": "5bf10dfba6140b124f18fd51f9c825cd995e40bf7b196b6ee40eb006fe93de73",
+    "bytes": 2088
+  },
+  {
+    "path": "product-strategist/docs/changes-v0.5.md",
+    "sha256": "1b2563bdc65c02f09108c1cc472977cd409ae1413d057f941ab9567e395bf69b",
+    "bytes": 5373
+  },
+  {
+    "path": "product-strategist/docs/checkpoint-benchmark.json",
+    "sha256": "90684b7329690f8b166b0e122e12cb54bdc9561f5b544a82c79bccd1d72678a6",
+    "bytes": 1735
+  },
+  {
+    "path": "product-strategist/docs/checkpoint.md",
+    "sha256": "ddf188691036681503722ea1ffdbe863fedfe8f81e52d68d85bb24b2a65e08ac",
+    "bytes": 4584
+  },
+  {
+    "path": "product-strategist/docs/cohort-comparison-verification.json",
+    "sha256": "8453ae9bd38ae8439c1bf699198d923b4f7b730a0ec7368d0879652062e4aa31",
+    "bytes": 1638
+  },
+  {
+    "path": "product-strategist/docs/cohort-comparison.md",
+    "sha256": "86b4ce6155249391d9d8b848bb628ca832cda683922840b4606dd8b669b7bf34",
+    "bytes": 3262
+  },
+  {
+    "path": "product-strategist/docs/contest-description.pdf",
+    "sha256": "9ccbd8c01c2dff53b428e56548cc6ab68a5089c7d2286603856336eb347c0f9e",
+    "bytes": 869298
+  },
+  {
+    "path": "product-strategist/docs/context-benchmark.json",
+    "sha256": "f53627bcc1a1133c7d9e473d178bb9bfe1b32844aacdb3f584b4d4078c3e2d48",
+    "bytes": 503
+  },
+  {
+    "path": "product-strategist/docs/decision-lab.md",
+    "sha256": "283e6e54e7e4d7fdc1ed384d2db2650e8c12c3d50d179d1d24142e9fc999a6c0",
+    "bytes": 9540
+  },
+  {
+    "path": "product-strategist/docs/description.md",
+    "sha256": "df0f604bc136b64fcf9cdd22365f65e173462f54442be6fd474468adbbfa9efe",
+    "bytes": 1739
+  },
+  {
+    "path": "product-strategist/docs/design.md",
+    "sha256": "a261e836d2a23bdf002b58d701ef8376c86e6681715f0e22e51ba2a655edc60e",
+    "bytes": 3384
+  },
+  {
+    "path": "product-strategist/docs/evaluation.md",
+    "sha256": "e51acd91960496144174a085d18ae2e7045fac2392cdc355f3b9758792b1ec02",
+    "bytes": 4346
+  },
+  {
+    "path": "product-strategist/docs/jury-tour.md",
+    "sha256": "da7bbd425a0a323322ee13ad24cc266b0731a5c59756d0366d36ae0835df6c58",
+    "bytes": 1769
+  },
+  {
+    "path": "product-strategist/docs/live-comparison.json",
+    "sha256": "9b49a897f30d5beba256841efe40f2ee3aa17f7299533d61918f20d0281ab40f",
+    "bytes": 3651
+  },
+  {
+    "path": "product-strategist/docs/live-comparison.md",
+    "sha256": "618143b661f7fc266535851055d7cca4a79b76c0015a950b8e1dc9f59f4ddef4",
+    "bytes": 6192
+  },
+  {
+    "path": "product-strategist/docs/mcp.md",
+    "sha256": "7da2a0eb2d4b02ce24ed1ebe733349bd4705ad6311a2bccc7a5bade02d80c95e",
+    "bytes": 3683
+  },
+  {
+    "path": "product-strategist/docs/pdf-design-verification.json",
+    "sha256": "903777563621e482adcdb79e02297ebf4b86318c7f9aef2172ddbc0b5627b82a",
+    "bytes": 410
+  },
+  {
+    "path": "product-strategist/docs/pdf-layout-map.json",
+    "sha256": "01b6b225323454dfbe00e12a01d0a58ce48e6f9709bc4d31e1f86dd70ee60679",
+    "bytes": 56412
+  },
+  {
+    "path": "product-strategist/docs/pilot-browser-verification.json",
+    "sha256": "e783cfe76ff65107d30617103c3ff1154b42206b011a73341eb599ce5692c320",
+    "bytes": 335
+  },
+  {
+    "path": "product-strategist/docs/pilot.md",
+    "sha256": "81d645ae5a5a4650f2603efd430f610a72a226ce95eaf095d3b9546f7e6ea033",
+    "bytes": 6586
+  },
+  {
+    "path": "product-strategist/docs/run-measurement.json",
+    "sha256": "8662bacd22de12263e4763c85448ba133ed853af50d09cddafe6e48bca659b88",
+    "bytes": 746
+  },
+  {
+    "path": "product-strategist/docs/screenshots/family-pilot-card.png",
+    "sha256": "b1d6f0d0dc537e03400b0230f4a1ebfc080fc9af83e5d404c41f2fd9203fc2cb",
+    "bytes": 139946
+  },
+  {
+    "path": "product-strategist/docs/screenshots/family-pilot-plot.png",
+    "sha256": "f926a05634ee27d75645ee6dd7277d073159f7bcc929c88941cbf1b04477892a",
+    "bytes": 16194
+  },
+  {
+    "path": "product-strategist/docs/screenshots/lab-detail.png",
+    "sha256": "366de308155b6ba844c5a419f310b88fe25f65c55873392d520e15f50404e03b",
+    "bytes": 52314
+  },
+  {
+    "path": "product-strategist/docs/screenshots/lab-mobile.png",
+    "sha256": "2ba32a5a467d2d0b8fec413e728917608f379601a63cad84bc934fb9fc203469",
+    "bytes": 38535
+  },
+  {
+    "path": "product-strategist/docs/screenshots/lab-overview.png",
+    "sha256": "74287ab457268441897e7931a93acbee2612be827815ba9c57cedc3bb61ed5e5",
+    "bytes": 83240
+  },
+  {
+    "path": "product-strategist/docs/screenshots/lab-research.png",
+    "sha256": "23ba2e7dc9c7e18619f77ff5adba45df79fbef61abc9b69dbe41385e3efbaee9",
+    "bytes": 66896
+  },
+  {
+    "path": "product-strategist/docs/screenshots/owner-card.png",
+    "sha256": "7759a5f00626412812508c38c17e72d10e9664cf10747d5bb6e6a051f215e5f5",
+    "bytes": 57150
+  },
+  {
+    "path": "product-strategist/docs/screenshots/pdf-cover.png",
+    "sha256": "46943fbbce69e1555867378dfa7d704c353eaa5f6d719ddc6d0f614765c6ae8a",
+    "bytes": 253526
+  },
+  {
+    "path": "product-strategist/docs/screenshots/public-decision-detail.png",
+    "sha256": "56cbb917459b06cf67cb7e5d4abf5444a318e06e673456e842d4137e4184974b",
+    "bytes": 103418
+  },
+  {
+    "path": "product-strategist/docs/screenshots/public-mobile.png",
+    "sha256": "38d3cf55f14bdf48e3f052a5e1c6d8593e47b6cea2be672a445751c78f757134",
+    "bytes": 159006
+  },
+  {
+    "path": "product-strategist/docs/screenshots/public-options.png",
+    "sha256": "47a4937b1e6c647ba5490cf45dfe452c4287d998d67ce26eb7d22d1900f7da71",
+    "bytes": 171113
+  },
+  {
+    "path": "product-strategist/docs/screenshots/public-overview-viewport.png",
+    "sha256": "e62ec575d9e562aab94c68910e256eaf09eb4d53e6a2b30085d1216978df8ebd",
+    "bytes": 86839
+  },
+  {
+    "path": "product-strategist/docs/screenshots/public-overview.png",
+    "sha256": "399ddef2168dc1c39563d6fa5a6beec3c67d41ef3c272677e9bdcc9a3f25c8fe",
+    "bytes": 163775
+  },
+  {
+    "path": "product-strategist/docs/screenshots/public-source.png",
+    "sha256": "a1961baee98dbe135863bcd83f44ea1e7b126306c0207233d21f84b0b2e1e5cd",
+    "bytes": 79049
+  },
+  {
+    "path": "product-strategist/docs/screenshots/shift-revised-card.png",
+    "sha256": "4345db920e0803c8836269f86770bdeac7de84c32faf1f61c78a7453b866a579",
+    "bytes": 41243
+  },
+  {
+    "path": "product-strategist/docs/submission-video.json",
+    "sha256": "da858c276b9d5e1d725e1c21b68efdce416b70450fac8044a4620c394cc1d0d8",
+    "bytes": 1376
+  },
+  {
+    "path": "product-strategist/docs/submission.md",
+    "sha256": "6bd939d84f6ab169790dad4a6529da5202048f19bd2b77f8606888cdf13db2d8",
+    "bytes": 4115
+  },
+  {
+    "path": "product-strategist/docs/verification-v0.2.json",
+    "sha256": "0b4374b12837082eaee2dc7db0abdebcaa30dc1f3c0dcd74eedfeae18afc20c6",
+    "bytes": 17356
+  },
+  {
+    "path": "product-strategist/docs/verification-v0.3.json",
+    "sha256": "5db921fcbea6638fa9c29cef1b89c9a02536e685d978fabd04fc8ae86989750d",
+    "bytes": 60163
+  },
+  {
+    "path": "product-strategist/docs/verification-v0.4.json",
+    "sha256": "32e9d4b8c62a22d8808eb798cc4119fb9b7c28d50b2602a41f0579ea5e439215",
+    "bytes": 60970
+  },
+  {
+    "path": "product-strategist/docs/verification-v0.5.json",
+    "sha256": "1c4e207bc501eba4d360af33fd378a6b78317df3cce759696f637a1c5031f7c1",
+    "bytes": 62249
+  },
+  {
+    "path": "product-strategist/docs/verification-v0.6.json",
+    "sha256": "3f317ef688b8ff0449ebf38619545849a03c3051bb39e4fce600f331f278bcc5",
+    "bytes": 63537
+  },
+  {
+    "path": "product-strategist/docs/verification.json",
+    "sha256": "c2eda317cc20917e8fbead4d41b9ace32988511c4d9eb95b45d2359b8487844e",
+    "bytes": 7164
+  },
+  {
+    "path": "product-strategist/docs/verification.md",
+    "sha256": "14031103ea044363b4afa87267ef2f147c717244eb2af0f5b3c0e5090f6eb710",
+    "bytes": 1856
+  },
+  {
+    "path": "product-strategist/docs/video-script.md",
+    "sha256": "3935282801bc19b2b7a89faf55706be60ef05f6dd362fbc18f74694385868b95",
+    "bytes": 1495
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/README.md",
+    "sha256": "fdfb77a36670fbb9062a7649695b991b0f7eca204aca99490b7976cb46056b6d",
+    "bytes": 1633
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/barrier.json",
+    "sha256": "11c28f360cce1e87afb6e18fa8cda0dee8d4a180ca09eefdc2def1cbfa11bbff",
+    "bytes": 676
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/brief.json",
+    "sha256": "2759957b8618164d9e54acafe4a12000c0d92b4f3e3bb2646ac40ac1013448d6",
+    "bytes": 1631
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/capability.json",
+    "sha256": "74bffaa06e2999aacaf13d764637e94694ba70fe881509b66458035f34bf0bb6",
+    "bytes": 734
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/commitment.json",
+    "sha256": "8e0db8b8fcc295b9c41df668c81ab1322c1aa7446e2be7374174b1da7283db36",
+    "bytes": 651
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/options.json",
+    "sha256": "86e7eea4b6f35a4b5e4b7dfe868b11da5920f5565e70afd34de6666124284f7f",
+    "bytes": 5966
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/pilot-lift.json",
+    "sha256": "5db5586b4932894c82f4702613be806bd0374fd888d76b317bb080d3bc64222b",
+    "bytes": 505
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/research.json",
+    "sha256": "0a3d4b51613d05a676093df0b6506c84900c5deeaabe584ab15e2917e994f0a6",
+    "bytes": 4128
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/restrictions.json",
+    "sha256": "31b5486131e0ce305562918af2e093932854d580e155fc66663ee2ad287674bf",
+    "bytes": 520
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/strategy.json",
+    "sha256": "cff02b6035111e086cadd66c7472d929d290b836ad158dc8d92693712e568cdd",
+    "bytes": 7566
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/teams-retention.json",
+    "sha256": "a6bf8b05b4428bbd8866d2d06a8b0ac2188326669951cf3520216540b13b912e",
+    "bytes": 671
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/authored-fixtures/unit-economics.json",
+    "sha256": "9d9c77f6b167648d6187ffe876a38b13e56c3c9dd14ecdf0a2e621acfd708774",
+    "bytes": 783
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/00b17a0ba72b9aa2f4b146f52e627cbb6bcc00996137f423ee8cb0977b3db3b5.json",
+    "sha256": "00b17a0ba72b9aa2f4b146f52e627cbb6bcc00996137f423ee8cb0977b3db3b5",
+    "bytes": 3612
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/03fcb2f44fdbdf27ac43c7ee034f97507f38e03579851b2fafbcdbec27cf5db3.json",
+    "sha256": "03fcb2f44fdbdf27ac43c7ee034f97507f38e03579851b2fafbcdbec27cf5db3",
+    "bytes": 5303
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/267dc2725dc4ed7d3a291e04fad7f01e531c1ef0bf451663f9d1da93fb2f4126.json",
+    "sha256": "267dc2725dc4ed7d3a291e04fad7f01e531c1ef0bf451663f9d1da93fb2f4126",
+    "bytes": 792
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/29ad0893170e6132c15fb378c263a522723395de4d6372d516884c279d8e4e8e.json",
+    "sha256": "29ad0893170e6132c15fb378c263a522723395de4d6372d516884c279d8e4e8e",
+    "bytes": 1364
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/2a5f8c20e3a22e446c951290a3b3c718930f726d537a178738370cb99c85afe5.json",
+    "sha256": "2a5f8c20e3a22e446c951290a3b3c718930f726d537a178738370cb99c85afe5",
+    "bytes": 16304
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/2cd2dae33c11315bfed7f93e27db1979c9721242e974f4771f79f1ef847470dc.json",
+    "sha256": "2cd2dae33c11315bfed7f93e27db1979c9721242e974f4771f79f1ef847470dc",
+    "bytes": 6939
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/344cf28f70c4a43e6fb841ba54e8e46e872952a6af4691838ec214bd69b57a13.json",
+    "sha256": "344cf28f70c4a43e6fb841ba54e8e46e872952a6af4691838ec214bd69b57a13",
+    "bytes": 15828
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80.md",
+    "sha256": "500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80",
+    "bytes": 1159
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/60cb0a5a5bdb235e660c897da0593778933012771e49e98d265be43be57e659d.json",
+    "sha256": "60cb0a5a5bdb235e660c897da0593778933012771e49e98d265be43be57e659d",
+    "bytes": 3627
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/61693c1c7cf6d92df3bf7c98520bd78aacbdd105cabf3e3d2ffd7aa9cb3ec9fb.json",
+    "sha256": "61693c1c7cf6d92df3bf7c98520bd78aacbdd105cabf3e3d2ffd7aa9cb3ec9fb",
+    "bytes": 1309
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/869715e92b10f6f91a3eb32bee61057e3fa69e0214568c9e48651c4de59add27.json",
+    "sha256": "869715e92b10f6f91a3eb32bee61057e3fa69e0214568c9e48651c4de59add27",
+    "bytes": 16212
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/870d8e0958a2d7e8eb72485ae8b97311182d8b9bb433caea7eb9a4ac32883f24.json",
+    "sha256": "870d8e0958a2d7e8eb72485ae8b97311182d8b9bb433caea7eb9a4ac32883f24",
+    "bytes": 1500
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e.md",
+    "sha256": "a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e",
+    "bytes": 1453
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/af084d0f91ac328ebb18499446b19452dc6ff05befac267065e9325336da19f0.json",
+    "sha256": "af084d0f91ac328ebb18499446b19452dc6ff05befac267065e9325336da19f0",
+    "bytes": 1528
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/e7bbf08096db17e22404eb60fdeb8ec8675cbe5e8d9e7fe7c2429129ad9c41e0.json",
+    "sha256": "e7bbf08096db17e22404eb60fdeb8ec8675cbe5e8d9e7fe7c2429129ad9c41e0",
+    "bytes": 1693
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/blobs/f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a.csv",
+    "sha256": "f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a",
+    "bytes": 341
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/audit.json",
+    "sha256": "f24776a9a40cd19a8852fe157cded0748b0ec5e7bc8a76a58194d35d729f630b",
+    "bytes": 343
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/dashboard.html",
+    "sha256": "b435cbc0c4f1c4eb1c4e47cee1b5042a33c40941fb86f10caa26ba7f4f5e0dd5",
+    "bytes": 123478
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/decision-lab.html",
+    "sha256": "83894d3c48872d13fed30c787ea1809048ba5573de0f108034f22ec225b2329e",
+    "bytes": 112557
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/lab-replay.json",
+    "sha256": "0f8f34fa18cd680474b902130bcdaff78701bf39ee1e5399d773be1ff3c1a32c",
+    "bytes": 1318
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/lineage.mmd",
+    "sha256": "d345549746c01dbef06ee5537608fb2435b969d92195c56913edeb2e8142f0f7",
+    "bytes": 746
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/replay.json",
+    "sha256": "ebffdfff7d59d021a8af61214380e03233e54805ebde78fee16b55ebca91db78",
+    "bytes": 53931
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/exports/strategy.md",
+    "sha256": "d69512775c6746d6f20569b0cb68bbb26ac3cfb27bc622bd4cd31f511d5a7793",
+    "bytes": 26379
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/lab-input/idealized.json",
+    "sha256": "529713349d848fcc684caf9abaffd5324036a66fbbac70d36c5646054d78597d",
+    "bytes": 11622
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/lab-input/with-inconclusive.json",
+    "sha256": "1f2d882cd591bbadefa7224269ea73de11165e01c3f2af2578d2cbcc3123beb2",
+    "bytes": 11798
+  },
+  {
+    "path": "product-strategist/examples/decision-lab/state.json",
+    "sha256": "74b4c62af38001dfb1e6c0923611bbb24e5291ac23e1f98834d75a1ad1b864e3",
+    "bytes": 62092
+  },
+  {
+    "path": "product-strategist/examples/owner-review/README.md",
+    "sha256": "ae3413a4af544bdf9b0dde1ce74d60bf302f0cfcd9e43181606b3886542b7a11",
+    "bytes": 1175
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c.json",
+    "sha256": "0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c",
+    "bytes": 3018
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7.json",
+    "sha256": "0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7",
+    "bytes": 1383
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999.json",
+    "sha256": "3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999",
+    "bytes": 2915
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4.json",
+    "sha256": "51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4",
+    "bytes": 941
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f.json",
+    "sha256": "62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f",
+    "bytes": 1512
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e.json",
+    "sha256": "6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e",
+    "bytes": 1563
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97.json",
+    "sha256": "6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97",
+    "bytes": 785
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750.json",
+    "sha256": "7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750",
+    "bytes": 2950
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2.json",
+    "sha256": "9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2",
+    "bytes": 1551
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e.json",
+    "sha256": "9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e",
+    "bytes": 1404
+  },
+  {
+    "path": "product-strategist/examples/owner-review/blobs/f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94.json",
+    "sha256": "f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94",
+    "bytes": 1519
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/audit.json",
+    "sha256": "814f2a95b4f8c7d3d12e764cf330abeb7f430167742e9fa6c33d35addf983e12",
+    "bytes": 440
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/dashboard.html",
+    "sha256": "4a5231236328638bdaf7c3d4167db078393e5fc64b9907c68e40d3adc509441c",
+    "bytes": 112014
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/decision-card.html",
+    "sha256": "0fdf5856ef4c79a44cc45c1d899d66107e528cf1ccf50ba5a5d933661cdb6d32",
+    "bytes": 92825
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/decision-card.json",
+    "sha256": "5c178a4309a1c738e7c43d9aa5889534b535753c78ff033540581a689de27b41",
+    "bytes": 9032
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/lineage.mmd",
+    "sha256": "8d1a72adc7c30266b8f91c7a49a9b8081129ed990c5d11b9c17bacab6a14cda0",
+    "bytes": 731
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/report.md",
+    "sha256": "abcb54839583bfdd7a45aa50aa4d6e9d8d8a83d1146c861c967466a820c3e7ea",
+    "bytes": 15062
+  },
+  {
+    "path": "product-strategist/examples/owner-review/exports/strategy.md",
+    "sha256": "9cf1df1d08ac8c3e2c7b3d54bd5e21a6f52752e54428ea2361d52cb9d14dd5d8",
+    "bytes": 13388
+  },
+  {
+    "path": "product-strategist/examples/owner-review/state.json",
+    "sha256": "856a841dcb9d0a317e5c820e7fcfb80f3d2b1c27246f888dbba32f10de488dba",
+    "bytes": 23100
+  },
+  {
+    "path": "product-strategist/examples/public-case/README.md",
+    "sha256": "44c0f7e582b27a1e66c2a625e2b4bdd4436129e61292c12aae4e42daa0289b9e",
+    "bytes": 1532
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/09e82387b62bf26a96cb91a318d531ec015ca1a4cac6d631d7c686b0327bb3b1.json",
+    "sha256": "09e82387b62bf26a96cb91a318d531ec015ca1a4cac6d631d7c686b0327bb3b1",
+    "bytes": 110
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/284d2816f11235c159402c8e89a4c319c81a4249d970d081ee600c8a7de15dd5.json",
+    "sha256": "284d2816f11235c159402c8e89a4c319c81a4249d970d081ee600c8a7de15dd5",
+    "bytes": 115
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/28e587adb9f4f8226fe9e61f1836e7cb9e820dc77a26277cbdce89fc4a7b6e96.txt",
+    "sha256": "28e587adb9f4f8226fe9e61f1836e7cb9e820dc77a26277cbdce89fc4a7b6e96",
+    "bytes": 24
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/329533fd42bc5faa0a4e332cb7e9467355db958e10983e6f3f93a098797d7fca.json",
+    "sha256": "329533fd42bc5faa0a4e332cb7e9467355db958e10983e6f3f93a098797d7fca",
+    "bytes": 59
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/472aa8efa879dad6c1d0a24e5c7f182ec86df44a4757bb851404559f97d06ac5.json",
+    "sha256": "472aa8efa879dad6c1d0a24e5c7f182ec86df44a4757bb851404559f97d06ac5",
+    "bytes": 7241
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/57ce846c31c8ba337f54ea1965f05640ee3e568447060e752edd4fc988496788.txt",
+    "sha256": "57ce846c31c8ba337f54ea1965f05640ee3e568447060e752edd4fc988496788",
+    "bytes": 53
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/782a1609210f9b8c7bee3f75bf565cd01ec474ff7806ce865e62e0ed0b69357d.json",
+    "sha256": "782a1609210f9b8c7bee3f75bf565cd01ec474ff7806ce865e62e0ed0b69357d",
+    "bytes": 1868
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/a9d5802bae1618bc368b633c23e51cfe7179c895469b6151661c33b8240d6149.json",
+    "sha256": "a9d5802bae1618bc368b633c23e51cfe7179c895469b6151661c33b8240d6149",
+    "bytes": 56
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/c1cce13e95ea3521f8e641183319adb527a1a903602a73520366b258b7b392d5.json",
+    "sha256": "c1cce13e95ea3521f8e641183319adb527a1a903602a73520366b258b7b392d5",
+    "bytes": 5726
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/c2ebe58dbc3d556bcf1f55b3aba077e390faded9ef3cea75ccf336237de1cf78.json",
+    "sha256": "c2ebe58dbc3d556bcf1f55b3aba077e390faded9ef3cea75ccf336237de1cf78",
+    "bytes": 6804
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/cce311662f8cfe05f3517eaa95f4398f3fe04b9fff1c151462e8ef09ca5896a0.json",
+    "sha256": "cce311662f8cfe05f3517eaa95f4398f3fe04b9fff1c151462e8ef09ca5896a0",
+    "bytes": 3995
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/dc381ac7b2f7dc6e0e0a7b4a6c4fa42dfb9cd91910500cdb1c537e9a92e1ef15.txt",
+    "sha256": "dc381ac7b2f7dc6e0e0a7b4a6c4fa42dfb9cd91910500cdb1c537e9a92e1ef15",
+    "bytes": 48
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/ea2e94ca0b271ca31a39ed168fc78623348a168c099563afacff0519ea8506b9.json",
+    "sha256": "ea2e94ca0b271ca31a39ed168fc78623348a168c099563afacff0519ea8506b9",
+    "bytes": 5088
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/f7cbe19abefb8357583d84d9f4f4f177b7a95b0af30b950e7cdcd528f4832445.txt",
+    "sha256": "f7cbe19abefb8357583d84d9f4f4f177b7a95b0af30b950e7cdcd528f4832445",
+    "bytes": 27
+  },
+  {
+    "path": "product-strategist/examples/public-case/blobs/fd6cf799292397e9fd1eb948879b594ce3170a82a0fff6b8ab3b0498645dffdd.json",
+    "sha256": "fd6cf799292397e9fd1eb948879b594ce3170a82a0fff6b8ab3b0498645dffdd",
+    "bytes": 5374
+  },
+  {
+    "path": "product-strategist/examples/public-case/exports/audit.json",
+    "sha256": "71a439cdb4c820abb193098ebbd8c7528dd0f424bca55930bffeaa0e713be3b5",
+    "bytes": 343
+  },
+  {
+    "path": "product-strategist/examples/public-case/exports/critical-review.json",
+    "sha256": "102bfef5f931403f18eea31083893349ae2d20ec021044493397d449d733c06d",
+    "bytes": 858
+  },
+  {
+    "path": "product-strategist/examples/public-case/exports/dashboard.html",
+    "sha256": "b6c662c038700d8a234908789c92f7b990d3e3e4d47d8038554a3ddc3bf75996",
+    "bytes": 120428
+  },
+  {
+    "path": "product-strategist/examples/public-case/exports/lineage.mmd",
+    "sha256": "d90c93afc045c0d428a78a50b51c10c47ea4830fb28988dfe6b3c19355c803e7",
+    "bytes": 892
+  },
+  {
+    "path": "product-strategist/examples/public-case/exports/source-acquisition.json",
+    "sha256": "f63c6721ef951963ea96b1a2b52c6873511e30608ce07b742b1b5096b425e3d5",
+    "bytes": 2034
+  },
+  {
+    "path": "product-strategist/examples/public-case/exports/strategy.md",
+    "sha256": "b56299f5c3fc9786dc5f83546914962ef56519231e6e4346fd62735136b6bce9",
+    "bytes": 29789
+  },
+  {
+    "path": "product-strategist/examples/public-case/state.json",
+    "sha256": "f1612e338d55aebc1618e8191c609d1ee5cac9231552f426c991a68b8c1283b0",
+    "bytes": 46420
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/barrier.json",
+    "sha256": "11c28f360cce1e87afb6e18fa8cda0dee8d4a180ca09eefdc2def1cbfa11bbff",
+    "bytes": 676
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/brief.json",
+    "sha256": "2759957b8618164d9e54acafe4a12000c0d92b4f3e3bb2646ac40ac1013448d6",
+    "bytes": 1631
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/capability.json",
+    "sha256": "74bffaa06e2999aacaf13d764637e94694ba70fe881509b66458035f34bf0bb6",
+    "bytes": 734
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/commitment.json",
+    "sha256": "8e0db8b8fcc295b9c41df668c81ab1322c1aa7446e2be7374174b1da7283db36",
+    "bytes": 651
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/options.json",
+    "sha256": "86e7eea4b6f35a4b5e4b7dfe868b11da5920f5565e70afd34de6666124284f7f",
+    "bytes": 5966
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/pilot-lift.json",
+    "sha256": "5db5586b4932894c82f4702613be806bd0374fd888d76b317bb080d3bc64222b",
+    "bytes": 505
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/research.json",
+    "sha256": "0a3d4b51613d05a676093df0b6506c84900c5deeaabe584ab15e2917e994f0a6",
+    "bytes": 4128
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/restrictions.json",
+    "sha256": "31b5486131e0ce305562918af2e093932854d580e155fc66663ee2ad287674bf",
+    "bytes": 520
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/strategy.json",
+    "sha256": "cff02b6035111e086cadd66c7472d929d290b836ad158dc8d92693712e568cdd",
+    "bytes": 7566
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/teams-retention.json",
+    "sha256": "a6bf8b05b4428bbd8866d2d06a8b0ac2188326669951cf3520216540b13b912e",
+    "bytes": 671
+  },
+  {
+    "path": "product-strategist/examples/replay/authored-fixtures/unit-economics.json",
+    "sha256": "9d9c77f6b167648d6187ffe876a38b13e56c3c9dd14ecdf0a2e621acfd708774",
+    "bytes": 783
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/00b17a0ba72b9aa2f4b146f52e627cbb6bcc00996137f423ee8cb0977b3db3b5.json",
+    "sha256": "00b17a0ba72b9aa2f4b146f52e627cbb6bcc00996137f423ee8cb0977b3db3b5",
+    "bytes": 3612
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/03fcb2f44fdbdf27ac43c7ee034f97507f38e03579851b2fafbcdbec27cf5db3.json",
+    "sha256": "03fcb2f44fdbdf27ac43c7ee034f97507f38e03579851b2fafbcdbec27cf5db3",
+    "bytes": 5303
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/267dc2725dc4ed7d3a291e04fad7f01e531c1ef0bf451663f9d1da93fb2f4126.json",
+    "sha256": "267dc2725dc4ed7d3a291e04fad7f01e531c1ef0bf451663f9d1da93fb2f4126",
+    "bytes": 792
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/29ad0893170e6132c15fb378c263a522723395de4d6372d516884c279d8e4e8e.json",
+    "sha256": "29ad0893170e6132c15fb378c263a522723395de4d6372d516884c279d8e4e8e",
+    "bytes": 1364
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/2cd2dae33c11315bfed7f93e27db1979c9721242e974f4771f79f1ef847470dc.json",
+    "sha256": "2cd2dae33c11315bfed7f93e27db1979c9721242e974f4771f79f1ef847470dc",
+    "bytes": 6939
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80.md",
+    "sha256": "500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80",
+    "bytes": 1159
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/60cb0a5a5bdb235e660c897da0593778933012771e49e98d265be43be57e659d.json",
+    "sha256": "60cb0a5a5bdb235e660c897da0593778933012771e49e98d265be43be57e659d",
+    "bytes": 3627
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/61693c1c7cf6d92df3bf7c98520bd78aacbdd105cabf3e3d2ffd7aa9cb3ec9fb.json",
+    "sha256": "61693c1c7cf6d92df3bf7c98520bd78aacbdd105cabf3e3d2ffd7aa9cb3ec9fb",
+    "bytes": 1309
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/870d8e0958a2d7e8eb72485ae8b97311182d8b9bb433caea7eb9a4ac32883f24.json",
+    "sha256": "870d8e0958a2d7e8eb72485ae8b97311182d8b9bb433caea7eb9a4ac32883f24",
+    "bytes": 1500
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e.md",
+    "sha256": "a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e",
+    "bytes": 1453
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/af084d0f91ac328ebb18499446b19452dc6ff05befac267065e9325336da19f0.json",
+    "sha256": "af084d0f91ac328ebb18499446b19452dc6ff05befac267065e9325336da19f0",
+    "bytes": 1528
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/e7bbf08096db17e22404eb60fdeb8ec8675cbe5e8d9e7fe7c2429129ad9c41e0.json",
+    "sha256": "e7bbf08096db17e22404eb60fdeb8ec8675cbe5e8d9e7fe7c2429129ad9c41e0",
+    "bytes": 1693
+  },
+  {
+    "path": "product-strategist/examples/replay/blobs/f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a.csv",
+    "sha256": "f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a",
+    "bytes": 341
+  },
+  {
+    "path": "product-strategist/examples/replay/exports/audit.json",
+    "sha256": "a64f1f830719cd4361393e3851f05d0a64ef39147196cc06b372c376e6cf035b",
+    "bytes": 343
+  },
+  {
+    "path": "product-strategist/examples/replay/exports/dashboard.html",
+    "sha256": "651c03a76c52e33d9a15306907a00fbc3faed7fe18cff546461042f8d15d47d6",
+    "bytes": 123364
+  },
+  {
+    "path": "product-strategist/examples/replay/exports/lineage.mmd",
+    "sha256": "afcdb7fc51631c96db6ea0ed565f76c491c27f6ae93d9060d9c80d63af89aeaa",
+    "bytes": 808
+  },
+  {
+    "path": "product-strategist/examples/replay/exports/replay.json",
+    "sha256": "ebffdfff7d59d021a8af61214380e03233e54805ebde78fee16b55ebca91db78",
+    "bytes": 53931
+  },
+  {
+    "path": "product-strategist/examples/replay/exports/strategy.md",
+    "sha256": "4a56f3a4e8ea6e832239256505ef404f99f81cf6c65c0e26624fdfd45e7860ca",
+    "bytes": 25956
+  },
+  {
+    "path": "product-strategist/examples/replay/state.json",
+    "sha256": "64c113fa969460fedb758d40c25acf98f25f2e64c327f5d0a528c333925d7ed0",
+    "bytes": 39811
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/barrier.json",
+    "sha256": "11c28f360cce1e87afb6e18fa8cda0dee8d4a180ca09eefdc2def1cbfa11bbff",
+    "bytes": 676
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/brief.json",
+    "sha256": "2759957b8618164d9e54acafe4a12000c0d92b4f3e3bb2646ac40ac1013448d6",
+    "bytes": 1631
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/capability.json",
+    "sha256": "74bffaa06e2999aacaf13d764637e94694ba70fe881509b66458035f34bf0bb6",
+    "bytes": 734
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/commitment.json",
+    "sha256": "8e0db8b8fcc295b9c41df668c81ab1322c1aa7446e2be7374174b1da7283db36",
+    "bytes": 651
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/options.json",
+    "sha256": "86e7eea4b6f35a4b5e4b7dfe868b11da5920f5565e70afd34de6666124284f7f",
+    "bytes": 5966
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/pilot-lift.json",
+    "sha256": "5db5586b4932894c82f4702613be806bd0374fd888d76b317bb080d3bc64222b",
+    "bytes": 505
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/research.json",
+    "sha256": "0a3d4b51613d05a676093df0b6506c84900c5deeaabe584ab15e2917e994f0a6",
+    "bytes": 4128
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/restrictions.json",
+    "sha256": "31b5486131e0ce305562918af2e093932854d580e155fc66663ee2ad287674bf",
+    "bytes": 520
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/strategy.json",
+    "sha256": "cff02b6035111e086cadd66c7472d929d290b836ad158dc8d92693712e568cdd",
+    "bytes": 7566
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/teams-retention.json",
+    "sha256": "a6bf8b05b4428bbd8866d2d06a8b0ac2188326669951cf3520216540b13b912e",
+    "bytes": 671
+  },
+  {
+    "path": "product-strategist/examples/revision/authored-fixtures/unit-economics.json",
+    "sha256": "9d9c77f6b167648d6187ffe876a38b13e56c3c9dd14ecdf0a2e621acfd708774",
+    "bytes": 783
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/00b17a0ba72b9aa2f4b146f52e627cbb6bcc00996137f423ee8cb0977b3db3b5.json",
+    "sha256": "00b17a0ba72b9aa2f4b146f52e627cbb6bcc00996137f423ee8cb0977b3db3b5",
+    "bytes": 3612
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/03fcb2f44fdbdf27ac43c7ee034f97507f38e03579851b2fafbcdbec27cf5db3.json",
+    "sha256": "03fcb2f44fdbdf27ac43c7ee034f97507f38e03579851b2fafbcdbec27cf5db3",
+    "bytes": 5303
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/156d508880b3e1e71e52d2282f9583b1f22eb40d918b9dc356ffba799edf1a62.json",
+    "sha256": "156d508880b3e1e71e52d2282f9583b1f22eb40d918b9dc356ffba799edf1a62",
+    "bytes": 790
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/267dc2725dc4ed7d3a291e04fad7f01e531c1ef0bf451663f9d1da93fb2f4126.json",
+    "sha256": "267dc2725dc4ed7d3a291e04fad7f01e531c1ef0bf451663f9d1da93fb2f4126",
+    "bytes": 792
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/29ad0893170e6132c15fb378c263a522723395de4d6372d516884c279d8e4e8e.json",
+    "sha256": "29ad0893170e6132c15fb378c263a522723395de4d6372d516884c279d8e4e8e",
+    "bytes": 1364
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/2cd2dae33c11315bfed7f93e27db1979c9721242e974f4771f79f1ef847470dc.json",
+    "sha256": "2cd2dae33c11315bfed7f93e27db1979c9721242e974f4771f79f1ef847470dc",
+    "bytes": 6939
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/2e9998e3125647f555e2357f14f21a0cb66d633d489f979fee2460a0ff580fc7.csv",
+    "sha256": "2e9998e3125647f555e2357f14f21a0cb66d633d489f979fee2460a0ff580fc7",
+    "bytes": 345
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/3c36e296134f34f5634b43be9611047054189237e0722178453a31a3b5ba31ee.json",
+    "sha256": "3c36e296134f34f5634b43be9611047054189237e0722178453a31a3b5ba31ee",
+    "bytes": 3937
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/44e99c6cfb32ece4e4b19bae3ac7650a29f00cc9fb98a26fa339cf6fdedac3ff.json",
+    "sha256": "44e99c6cfb32ece4e4b19bae3ac7650a29f00cc9fb98a26fa339cf6fdedac3ff",
+    "bytes": 5401
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80.md",
+    "sha256": "500cd7ec4dcf425a7ed56b99c9c6f2c926e588c26f468edd6c68656f64578a80",
+    "bytes": 1159
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/57ad4ee1bf3485b9501aed847c08e33ee03a58175d1efb64c5b48bb40ad745dc.json",
+    "sha256": "57ad4ee1bf3485b9501aed847c08e33ee03a58175d1efb64c5b48bb40ad745dc",
+    "bytes": 5313
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/61693c1c7cf6d92df3bf7c98520bd78aacbdd105cabf3e3d2ffd7aa9cb3ec9fb.json",
+    "sha256": "61693c1c7cf6d92df3bf7c98520bd78aacbdd105cabf3e3d2ffd7aa9cb3ec9fb",
+    "bytes": 1309
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/7c1e9bb4c2d0bd7765d3c929b686fd5e122ebb5f028d33fc768c87959a7e3291.json",
+    "sha256": "7c1e9bb4c2d0bd7765d3c929b686fd5e122ebb5f028d33fc768c87959a7e3291",
+    "bytes": 3922
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/870d8e0958a2d7e8eb72485ae8b97311182d8b9bb433caea7eb9a4ac32883f24.json",
+    "sha256": "870d8e0958a2d7e8eb72485ae8b97311182d8b9bb433caea7eb9a4ac32883f24",
+    "bytes": 1500
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e.md",
+    "sha256": "a1f9f47408db1fe5a885a15cba5ca8e986b0429e20e90e663136878d46e18d9e",
+    "bytes": 1453
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/a3f1ca08c242ac4a30a521b0cac4a24173148b65b65197c2801eaebd6f5f46fe.json",
+    "sha256": "a3f1ca08c242ac4a30a521b0cac4a24173148b65b65197c2801eaebd6f5f46fe",
+    "bytes": 1365
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/af084d0f91ac328ebb18499446b19452dc6ff05befac267065e9325336da19f0.json",
+    "sha256": "af084d0f91ac328ebb18499446b19452dc6ff05befac267065e9325336da19f0",
+    "bytes": 1528
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/b3801de7a33c1e671bd73a29eff28db1936f0f9aad15d8ff1bdafc69ce6c82d1.json",
+    "sha256": "b3801de7a33c1e671bd73a29eff28db1936f0f9aad15d8ff1bdafc69ce6c82d1",
+    "bytes": 1501
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/e7bbf08096db17e22404eb60fdeb8ec8675cbe5e8d9e7fe7c2429129ad9c41e0.json",
+    "sha256": "e7bbf08096db17e22404eb60fdeb8ec8675cbe5e8d9e7fe7c2429129ad9c41e0",
+    "bytes": 1693
+  },
+  {
+    "path": "product-strategist/examples/revision/blobs/f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a.csv",
+    "sha256": "f7d9bb421599e079db647885e6eb96827f30044976d8621a7276db05fac8807a",
+    "bytes": 341
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/audit.json",
+    "sha256": "62bff20777bda433fd079a58352d1d2daf50c8fefc561890e4de50751da97da0",
+    "bytes": 506
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/dashboard.html",
+    "sha256": "f5fed9b1bdc402cc979564c31408195f78d2d3dd51d9360dd6cce8be580ed701",
+    "bytes": 127671
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/lineage.mmd",
+    "sha256": "fd93a77f459fd7701d8b0b7637e78105552e7f06d02eb85d22d19d61fc16712a",
+    "bytes": 1099
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/replay.json",
+    "sha256": "ebffdfff7d59d021a8af61214380e03233e54805ebde78fee16b55ebca91db78",
+    "bytes": 53931
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/revision-replay.json",
+    "sha256": "309820ff03729c8767b0e9f0cb38a4a4b217297d359c0403c4885ca6c329709b",
+    "bytes": 37391
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/strategy-before-revision.md",
+    "sha256": "9cf64e13e0947c1cef2f0fb265d7682e3a23e938c9b894dd2712e3b65b1c0597",
+    "bytes": 25951
+  },
+  {
+    "path": "product-strategist/examples/revision/exports/strategy.md",
+    "sha256": "b6f0b700df30e6b3204f29a6e674f87d8fdfadecf26aecb9b7f782ed7a0c67c8",
+    "bytes": 26695
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/corrected-cohorts.csv",
+    "sha256": "2e9998e3125647f555e2357f14f21a0cb66d633d489f979fee2460a0ff580fc7",
+    "bytes": 345
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/exit-commitment.json",
+    "sha256": "d9ee56427757669fac056ecf56bb669e82874356e4d44bd6c4c971305c96f3f5",
+    "bytes": 621
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/options.json",
+    "sha256": "42b95f27c5695055bf2c8c682580e339195b1d35d6d928f5aba311fa8b7423ec",
+    "bytes": 6064
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/research.json",
+    "sha256": "41c0cd08eff513aaa9433c202be011c3038bad368d7a8a8916ee784946a22e33",
+    "bytes": 4444
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/strategy.json",
+    "sha256": "eb9a16408a784e9d624f494d6fd0988b253e8e0c486c65078ea17a4c3e79587e",
+    "bytes": 5892
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/teams-retention-v2.json",
+    "sha256": "d9542b335e11b1f7251aa3507c7ffb529474d1b712638dd7b448766610f59fee",
+    "bytes": 578
+  },
+  {
+    "path": "product-strategist/examples/revision/revision-fixtures/unit-economics-v2.json",
+    "sha256": "304e9b7ccb7f0d1286eca0f662f9fad8d8549fe897f27234ea1e1743316ed8c8",
+    "bytes": 518
+  },
+  {
+    "path": "product-strategist/examples/revision/state.json",
+    "sha256": "d8b11d2fde7f869b8b6815a5296012ec56ea1b82ab279de4f055745d59818d2d",
+    "bytes": 48611
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/README.md",
+    "sha256": "618e1d5b2ce4e194e77dabdf8b6b8c16421cd47854443945c1137d5914d5ce49",
+    "bytes": 3396
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/corrected-cohorts.csv",
+    "sha256": "67142fe72cc11003d96ff82d3f23911d80a5b22a38c400e4f8b841c4b2757d14",
+    "bytes": 333
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/replay-update.py",
+    "sha256": "37190f52e66ebc987adce3f35b4a6361bd3f6c2021f8f6547c655e748f414152",
+    "bytes": 13388
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/report-update.md",
+    "sha256": "c44eff5bc3a395327e90f9c6e5a9da077c69ff721f45f088f8ce18a19be49d84",
+    "bytes": 9197
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/README.md",
+    "sha256": "ae3413a4af544bdf9b0dde1ce74d60bf302f0cfcd9e43181606b3886542b7a11",
+    "bytes": 1175
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c.json",
+    "sha256": "0636a08e3614b232b5fdab3fb774f49da6ac3e0b7b39f26990feefb7482dca0c",
+    "bytes": 3018
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7.json",
+    "sha256": "0d95a9db3f9a38af6ddee6e09b82452f6dcb13305d8312d99b207ce475b553d7",
+    "bytes": 1383
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875.csv",
+    "sha256": "18f7a2b42ae878d1db347865de97783972e21746d35b6873656b0858831a8875",
+    "bytes": 340
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/19efc8aa8efaa889fbb911fba723a54a7ff52496172ef8e3fb5145faa4240f12.json",
+    "sha256": "19efc8aa8efaa889fbb911fba723a54a7ff52496172ef8e3fb5145faa4240f12",
+    "bytes": 3792
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1.md",
+    "sha256": "22ff8b8dae0b0ec4a798bb696eb54d0f8f956d44778d18067b3e774c522c68b1",
+    "bytes": 2740
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999.json",
+    "sha256": "3be5d687f66117a848f95ab13fb817989a1522f21e10eb52d7feebf51d68b999",
+    "bytes": 2915
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/3cf027b7127c7da14d9e6aa253ac06c55e7dbe5050d5436c82ef10e49560bf66.json",
+    "sha256": "3cf027b7127c7da14d9e6aa253ac06c55e7dbe5050d5436c82ef10e49560bf66",
+    "bytes": 1273
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4.json",
+    "sha256": "51411f3fdceac3d7661e866a084664c89365abfa11a70bb68c45ca44acc873f4",
+    "bytes": 941
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b.md",
+    "sha256": "5cc1d1c5f446e58095d4eb227bd0129f9cd382bef030c44791106246f82aa92b",
+    "bytes": 1258
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/5fd4171504944beb5865bfd846a43ea4e63fd248f8b905989a374b3a8ed07cec.json",
+    "sha256": "5fd4171504944beb5865bfd846a43ea4e63fd248f8b905989a374b3a8ed07cec",
+    "bytes": 1402
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f.json",
+    "sha256": "62208935276dc5a5066c82a20cd210b1fd6b64506c6b00b1cb389cfe2678082f",
+    "bytes": 1512
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/67142fe72cc11003d96ff82d3f23911d80a5b22a38c400e4f8b841c4b2757d14.csv",
+    "sha256": "67142fe72cc11003d96ff82d3f23911d80a5b22a38c400e4f8b841c4b2757d14",
+    "bytes": 333
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/6cc86ba52157b771e2511d7ab853b23b5c252377bcce48a3062f3297ddf037c3.md",
+    "sha256": "6cc86ba52157b771e2511d7ab853b23b5c252377bcce48a3062f3297ddf037c3",
+    "bytes": 1285
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/6d32dc421aadded9f9496cca33367040acc43d3c9590fa0aa398ff6e846d3bd5.json",
+    "sha256": "6d32dc421aadded9f9496cca33367040acc43d3c9590fa0aa398ff6e846d3bd5",
+    "bytes": 1820
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e.json",
+    "sha256": "6dba1d335849407cddedfd84108103762c09af0987e7a234bfa4f475417c588e",
+    "bytes": 1563
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97.json",
+    "sha256": "6e58164c906d49bf6de05e3735bc88a8cbba9e6e3fc2b9721c706d2d9fa79e97",
+    "bytes": 785
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750.json",
+    "sha256": "7e1684ccd75175847113406d26bf475cab09887e6bc8bb6680e5ce9ee7d85750",
+    "bytes": 2950
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9.md",
+    "sha256": "8a83ab7e7b4fbcdafd81a4e5b24b68a376f7c0e522410c3df3ece6cb09b0b8b9",
+    "bytes": 1308
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2.json",
+    "sha256": "9593c5db39786e33ebc742476e47be392da9c52b0b5d687810021f64177f8ae2",
+    "bytes": 1551
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e.json",
+    "sha256": "9ac5a17387651073d2904f277d1b31391615fdcc3108b2d627c2ae85dcf0837e",
+    "bytes": 1404
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/b8db100ed06ece1aedcb1b42257684395ba0d198fbcc6b2044f29ed83c91cb38.json",
+    "sha256": "b8db100ed06ece1aedcb1b42257684395ba0d198fbcc6b2044f29ed83c91cb38",
+    "bytes": 784
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94.json",
+    "sha256": "f66a7500c33682f1bae60f8f2ba678e2c19480cb21a30aa979732e8686bc5f94",
+    "bytes": 1519
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/blobs/fdd87a9845938a822aa0a92857973c6e1b8109db93822968d3159b6c4cf1b195.json",
+    "sha256": "fdd87a9845938a822aa0a92857973c6e1b8109db93822968d3159b6c4cf1b195",
+    "bytes": 1153
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/corrected-cohorts.csv",
+    "sha256": "67142fe72cc11003d96ff82d3f23911d80a5b22a38c400e4f8b841c4b2757d14",
+    "bytes": 333
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/audit.json",
+    "sha256": "aba6b871d95c4c8f7f012f64914b8c9c741dcacd0ff31595f2e1f68c6c9159d7",
+    "bytes": 521
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/dashboard.html",
+    "sha256": "fb2abab7b54626fef07cee353e3c4ac699043e26a5fe70d67f4834d2de0ecd35",
+    "bytes": 119893
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/decision-card.html",
+    "sha256": "4c5bedf013c8918db46efc42476f0dd0e844cf26a68f2c5e08e08f65eeed7790",
+    "bytes": 90541
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/decision-card.json",
+    "sha256": "84d9d3d8c472c5f1fccee96e7cd77ff4f62f3e6117b97e7ee1d7df6ced4d7f9e",
+    "bytes": 6961
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/lineage.mmd",
+    "sha256": "5850a5383d2b483cd4de22540c56e9910e1129a3fb81a35a0610f7ea1448aaa2",
+    "bytes": 1338
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/report.md",
+    "sha256": "abcb54839583bfdd7a45aa50aa4d6e9d8d8a83d1146c861c967466a820c3e7ea",
+    "bytes": 15062
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/exports/strategy.md",
+    "sha256": "6d8b03a752a87ff72319e9bec25167ffd148628b4ce1205e0160e667d293ec82",
+    "bytes": 16599
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/prepared-update.json",
+    "sha256": "187c376a82883aaddd3ee4a5862baeaadddb89f49dd312da22fe2463edd3d025",
+    "bytes": 9548
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/recalculation.json",
+    "sha256": "cc2dd2f29cfb12ec73026da5a3e601b517f109e51c66a2beec4180024473448e",
+    "bytes": 1940
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/state.json",
+    "sha256": "11a0a5b7416bff679b6c48d059c800f7089ee6462ef98bae8622e349b3f5ac67",
+    "bytes": 34716
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/revised/submission-trace.json",
+    "sha256": "c14b27888adb1b049cabd79368cb5baa02f276b7b8e4cd1feee2e35dd51f1cd2",
+    "bytes": 23772
+  },
+  {
+    "path": "product-strategist/examples/shift-demo/trace.json",
+    "sha256": "c14b27888adb1b049cabd79368cb5baa02f276b7b8e4cd1feee2e35dd51f1cd2",
+    "bytes": 23772
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/00-Демопроект.pdf",
+    "sha256": "997c5262cdb6e4760149aa73ec3bd1ede1cca04e1246131047a109b2ab203ec4",
+    "bytes": 274063
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/README.md",
+    "sha256": "ad2fb8558983df87c20f774bc98b07f333df42b845c8489cd1ec0aef99ced331",
+    "bytes": 3030
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/0f64c9bc877fbaeba4cf80a5e375745d5f4888681da6adee6aa586c1e3eb89cb.json",
+    "sha256": "0f64c9bc877fbaeba4cf80a5e375745d5f4888681da6adee6aa586c1e3eb89cb",
+    "bytes": 4110
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/55d2a1e6d0f6238d848dd7e476583576699f8778474ed0fce47f1dcac4cbd586.json",
+    "sha256": "55d2a1e6d0f6238d848dd7e476583576699f8778474ed0fce47f1dcac4cbd586",
+    "bytes": 2071
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae.md",
+    "sha256": "750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae",
+    "bytes": 3453
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/8ad839914f310879c2c2beea87dcfad49730c1abfca9d49a6ea6954d9ca25004.json",
+    "sha256": "8ad839914f310879c2c2beea87dcfad49730c1abfca9d49a6ea6954d9ca25004",
+    "bytes": 3875
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/9c837ee5294bc918f9c186e74fb1104c503feb6ae93af025dc837c1eda8859c9.json",
+    "sha256": "9c837ee5294bc918f9c186e74fb1104c503feb6ae93af025dc837c1eda8859c9",
+    "bytes": 3450
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576.json",
+    "sha256": "a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576",
+    "bytes": 1953
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/c3366bbede8674680b159052b48d60b57611f9f208b85f0c56288d369fb781d7.json",
+    "sha256": "c3366bbede8674680b159052b48d60b57611f9f208b85f0c56288d369fb781d7",
+    "bytes": 1261
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/blobs/ce1076c497e29e1511ed51ec9da3be7221642b8f7cf013c44c3a332ccfeab3c7.json",
+    "sha256": "ce1076c497e29e1511ed51ec9da3be7221642b8f7cf013c44c3a332ccfeab3c7",
+    "bytes": 1642
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/brief.json",
+    "sha256": "f5d86856819fd7ed6b56b7620afe41d2139d3802e568da48bcbfbe7dbf025c8f",
+    "bytes": 1340
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/commitment.json",
+    "sha256": "555b0c0bcb954fcd0401ec8c010e634a77b43e33efd8a73a3c63fb86eac83b06",
+    "bytes": 667
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/exports/audit.json",
+    "sha256": "a32bfe0d7f6c0a6c70785685e02efa94c7eef8059b681982fc8bea169780a8ff",
+    "bytes": 348
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/exports/dashboard.html",
+    "sha256": "6271745ef69e36da69082d23aa4c93fdcd82ea41207781244f9015911fe9d8ba",
+    "bytes": 114355
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/exports/decision-card.html",
+    "sha256": "5bd305964ad832181cbd7cf901b864afb640f471f0914308cd5e7f00d279935e",
+    "bytes": 90058
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/exports/decision-card.json",
+    "sha256": "1490858147ac61265c915e1c637e0f0ef342df09dc21cc3b2084ae1f85b673ff",
+    "bytes": 6554
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/exports/lineage.mmd",
+    "sha256": "1abb896bcbae4b3f58f8123d614931f69fed78bb65add255823e0d39e07debae",
+    "bytes": 383
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/exports/strategy.md",
+    "sha256": "ea0c919815bf4128b817f0ef61b3d6e2fcb88132e7ce08a1f3e108feb5974796",
+    "bytes": 15792
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/prepared.json",
+    "sha256": "4d0c9d69a54f107badf6712997a935bba71fb3ed94f011fadc9f41e4845350a4",
+    "bytes": 8351
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/state.json",
+    "sha256": "4fcd32267caba09abdf95e5711d6c95fa82615e305abab0a1eba3873f802d531",
+    "bytes": 23434
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q1/strategy.json",
+    "sha256": "eed3fde110faba75754cb053254b7caf6f4265f83b2218c37d8a6df1f052132c",
+    "bytes": 4023
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/01a0d23ab6c969ca5a5a2344e1917196ef8f4d0ce971974c35c4c3ee94732d63.json",
+    "sha256": "01a0d23ab6c969ca5a5a2344e1917196ef8f4d0ce971974c35c4c3ee94732d63",
+    "bytes": 677
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/0f64c9bc877fbaeba4cf80a5e375745d5f4888681da6adee6aa586c1e3eb89cb.json",
+    "sha256": "0f64c9bc877fbaeba4cf80a5e375745d5f4888681da6adee6aa586c1e3eb89cb",
+    "bytes": 4110
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/175b2b254fb3b82a7a4e0dd0e9b4989256fc84c5fc083d55ab5164166a6fa2e5.json",
+    "sha256": "175b2b254fb3b82a7a4e0dd0e9b4989256fc84c5fc083d55ab5164166a6fa2e5",
+    "bytes": 4128
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/29e2488bba3dd322145b6060deac74154b6672406076cc58d0b1556a4f3942b3.json",
+    "sha256": "29e2488bba3dd322145b6060deac74154b6672406076cc58d0b1556a4f3942b3",
+    "bytes": 1673
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/4807df5112ff704929a23dad0f584e62294966e891750fe03809fd5d77b497bd.json",
+    "sha256": "4807df5112ff704929a23dad0f584e62294966e891750fe03809fd5d77b497bd",
+    "bytes": 1695
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/5191c26ad1b083455a589d01e9e89cad578e44d1b8816bb164d3c179d95472d9.json",
+    "sha256": "5191c26ad1b083455a589d01e9e89cad578e44d1b8816bb164d3c179d95472d9",
+    "bytes": 1747
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/55d2a1e6d0f6238d848dd7e476583576699f8778474ed0fce47f1dcac4cbd586.json",
+    "sha256": "55d2a1e6d0f6238d848dd7e476583576699f8778474ed0fce47f1dcac4cbd586",
+    "bytes": 2071
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae.md",
+    "sha256": "750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae",
+    "bytes": 3453
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/7a7cc1031fb0946795cbb72e7497373dfda68f846bfd2bb096dd54632116b237.json",
+    "sha256": "7a7cc1031fb0946795cbb72e7497373dfda68f846bfd2bb096dd54632116b237",
+    "bytes": 1748
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/8ad839914f310879c2c2beea87dcfad49730c1abfca9d49a6ea6954d9ca25004.json",
+    "sha256": "8ad839914f310879c2c2beea87dcfad49730c1abfca9d49a6ea6954d9ca25004",
+    "bytes": 3875
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/9a84491097139339af50b755999ff872d34622656e7ea222351634a9e4f385aa.json",
+    "sha256": "9a84491097139339af50b755999ff872d34622656e7ea222351634a9e4f385aa",
+    "bytes": 1713
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/9c837ee5294bc918f9c186e74fb1104c503feb6ae93af025dc837c1eda8859c9.json",
+    "sha256": "9c837ee5294bc918f9c186e74fb1104c503feb6ae93af025dc837c1eda8859c9",
+    "bytes": 3450
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576.json",
+    "sha256": "a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576",
+    "bytes": 1953
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/b693b44c05e07dc04effcfe513297b0ad5cb39ad2e02ea1aab5ccf24635d074e.json",
+    "sha256": "b693b44c05e07dc04effcfe513297b0ad5cb39ad2e02ea1aab5ccf24635d074e",
+    "bytes": 1712
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/c3366bbede8674680b159052b48d60b57611f9f208b85f0c56288d369fb781d7.json",
+    "sha256": "c3366bbede8674680b159052b48d60b57611f9f208b85f0c56288d369fb781d7",
+    "bytes": 1261
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/c5c0d8da9de69a5bbda9420bde643b82f2a5f89f45e11a352f790c5bc1f80b02.json",
+    "sha256": "c5c0d8da9de69a5bbda9420bde643b82f2a5f89f45e11a352f790c5bc1f80b02",
+    "bytes": 1616
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/ce1076c497e29e1511ed51ec9da3be7221642b8f7cf013c44c3a332ccfeab3c7.json",
+    "sha256": "ce1076c497e29e1511ed51ec9da3be7221642b8f7cf013c44c3a332ccfeab3c7",
+    "bytes": 1642
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/eacf5fb4a900d7c2e331d74c1f4446fad381bda626d8c9186de760082d957613.json",
+    "sha256": "eacf5fb4a900d7c2e331d74c1f4446fad381bda626d8c9186de760082d957613",
+    "bytes": 676
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/f4ffe366005b5a8ce81c6c031a01f53720f96b1ecd4f7ce17c6216bf5cb4c273.json",
+    "sha256": "f4ffe366005b5a8ce81c6c031a01f53720f96b1ecd4f7ce17c6216bf5cb4c273",
+    "bytes": 1615
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/blobs/f8dc620d07ef810e3798bae3cf52c54c6991fdde92ca90919fb6d6f91c58be47.json",
+    "sha256": "f8dc620d07ef810e3798bae3cf52c54c6991fdde92ca90919fb6d6f91c58be47",
+    "bytes": 4138
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/brief.json",
+    "sha256": "f5d86856819fd7ed6b56b7620afe41d2139d3802e568da48bcbfbe7dbf025c8f",
+    "bytes": 1340
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/commitment.json",
+    "sha256": "555b0c0bcb954fcd0401ec8c010e634a77b43e33efd8a73a3c63fb86eac83b06",
+    "bytes": 667
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/exports/audit.json",
+    "sha256": "ad1924a5af022a11958af85a5001e0eb1b669e9c87a3ff7f00116a8a7c55837c",
+    "bytes": 523
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/exports/dashboard.html",
+    "sha256": "d7191306d2548eb0e1cba19af76607f6776c4e4272e6d01952ba8ac72f80c97b",
+    "bytes": 124778
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/exports/decision-card.html",
+    "sha256": "c61d3ead230b78b241f0c5b66b8860521a871aae8b3948f671dce784b0f96eca",
+    "bytes": 90627
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/exports/decision-card.json",
+    "sha256": "5d6f46ea8634f2782c6cd2b9ec7b96773ecc47b514fc5b7718b4304fcd9f97e1",
+    "bytes": 7063
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/exports/lineage.mmd",
+    "sha256": "328e8963b7709355738632e22dd9cd74cfa00132c6dfb14e9ab502b31bf989a9",
+    "bytes": 1090
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/exports/strategy.md",
+    "sha256": "1d0850158b93e30192a4ae94471a54b19703eeb4b0b4f76cfa88809453b2b54c",
+    "bytes": 17407
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/prepared.json",
+    "sha256": "33913dfdb164cc9317d68781ebd6049bed7efc07cea63c2bfec7e61127bba1fd",
+    "bytes": 8355
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/state.json",
+    "sha256": "7206f2e40d3a69950abc64920cbeba77d5b2b7b7f5f1a796b9cf52654896a36b",
+    "bytes": 36906
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reconciled/strategy.json",
+    "sha256": "eed3fde110faba75754cb053254b7caf6f4265f83b2218c37d8a6df1f052132c",
+    "bytes": 4023
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/0f64c9bc877fbaeba4cf80a5e375745d5f4888681da6adee6aa586c1e3eb89cb.json",
+    "sha256": "0f64c9bc877fbaeba4cf80a5e375745d5f4888681da6adee6aa586c1e3eb89cb",
+    "bytes": 4110
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/175b2b254fb3b82a7a4e0dd0e9b4989256fc84c5fc083d55ab5164166a6fa2e5.json",
+    "sha256": "175b2b254fb3b82a7a4e0dd0e9b4989256fc84c5fc083d55ab5164166a6fa2e5",
+    "bytes": 4128
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/29e2488bba3dd322145b6060deac74154b6672406076cc58d0b1556a4f3942b3.json",
+    "sha256": "29e2488bba3dd322145b6060deac74154b6672406076cc58d0b1556a4f3942b3",
+    "bytes": 1673
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/55d2a1e6d0f6238d848dd7e476583576699f8778474ed0fce47f1dcac4cbd586.json",
+    "sha256": "55d2a1e6d0f6238d848dd7e476583576699f8778474ed0fce47f1dcac4cbd586",
+    "bytes": 2071
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae.md",
+    "sha256": "750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae",
+    "bytes": 3453
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/7a7cc1031fb0946795cbb72e7497373dfda68f846bfd2bb096dd54632116b237.json",
+    "sha256": "7a7cc1031fb0946795cbb72e7497373dfda68f846bfd2bb096dd54632116b237",
+    "bytes": 1748
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/8ad839914f310879c2c2beea87dcfad49730c1abfca9d49a6ea6954d9ca25004.json",
+    "sha256": "8ad839914f310879c2c2beea87dcfad49730c1abfca9d49a6ea6954d9ca25004",
+    "bytes": 3875
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/9c837ee5294bc918f9c186e74fb1104c503feb6ae93af025dc837c1eda8859c9.json",
+    "sha256": "9c837ee5294bc918f9c186e74fb1104c503feb6ae93af025dc837c1eda8859c9",
+    "bytes": 3450
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576.json",
+    "sha256": "a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576",
+    "bytes": 1953
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/b693b44c05e07dc04effcfe513297b0ad5cb39ad2e02ea1aab5ccf24635d074e.json",
+    "sha256": "b693b44c05e07dc04effcfe513297b0ad5cb39ad2e02ea1aab5ccf24635d074e",
+    "bytes": 1712
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/c3366bbede8674680b159052b48d60b57611f9f208b85f0c56288d369fb781d7.json",
+    "sha256": "c3366bbede8674680b159052b48d60b57611f9f208b85f0c56288d369fb781d7",
+    "bytes": 1261
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/c5c0d8da9de69a5bbda9420bde643b82f2a5f89f45e11a352f790c5bc1f80b02.json",
+    "sha256": "c5c0d8da9de69a5bbda9420bde643b82f2a5f89f45e11a352f790c5bc1f80b02",
+    "bytes": 1616
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/ce1076c497e29e1511ed51ec9da3be7221642b8f7cf013c44c3a332ccfeab3c7.json",
+    "sha256": "ce1076c497e29e1511ed51ec9da3be7221642b8f7cf013c44c3a332ccfeab3c7",
+    "bytes": 1642
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/blobs/eacf5fb4a900d7c2e331d74c1f4446fad381bda626d8c9186de760082d957613.json",
+    "sha256": "eacf5fb4a900d7c2e331d74c1f4446fad381bda626d8c9186de760082d957613",
+    "bytes": 676
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/brief.json",
+    "sha256": "f5d86856819fd7ed6b56b7620afe41d2139d3802e568da48bcbfbe7dbf025c8f",
+    "bytes": 1340
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/commitment.json",
+    "sha256": "555b0c0bcb954fcd0401ec8c010e634a77b43e33efd8a73a3c63fb86eac83b06",
+    "bytes": 667
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/exports/audit.json",
+    "sha256": "a32bfe0d7f6c0a6c70785685e02efa94c7eef8059b681982fc8bea169780a8ff",
+    "bytes": 348
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/exports/dashboard.html",
+    "sha256": "6271745ef69e36da69082d23aa4c93fdcd82ea41207781244f9015911fe9d8ba",
+    "bytes": 114355
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/exports/decision-card.html",
+    "sha256": "73331e196d0803178591d8f1302e06e957de22a56f9b1b5e1dcdaa9d8ca06878",
+    "bytes": 90044
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/exports/decision-card.json",
+    "sha256": "5b021330c9062b1fc4a817a6bdf3492b8d93ab7858436c4ca91c5f33481aeb77",
+    "bytes": 6588
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/exports/lineage.mmd",
+    "sha256": "1abb896bcbae4b3f58f8123d614931f69fed78bb65add255823e0d39e07debae",
+    "bytes": 383
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/exports/strategy.md",
+    "sha256": "ea0c919815bf4128b817f0ef61b3d6e2fcb88132e7ce08a1f3e108feb5974796",
+    "bytes": 15792
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/prepared.json",
+    "sha256": "83bdf48c847269de1181863a1e1c4f41efd070e7a513878dede6ace2364b4a50",
+    "bytes": 7873
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/state.json",
+    "sha256": "51ab6696ce1a66e97674b84eeb8eb58b59dedcbc6b98e8d65f6cfd37259b72eb",
+    "bytes": 29285
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/q2-reported/strategy.json",
+    "sha256": "eed3fde110faba75754cb053254b7caf6f4265f83b2218c37d8a6df1f052132c",
+    "bytes": 4023
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/review.html",
+    "sha256": "a8f9faedaf6027f23fe04aa4ada5c68f66fdf482bf2332cf4a2bb0ff98e62280",
+    "bytes": 90137
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/demo-run/trace.json",
+    "sha256": "af2bbc1c2a3d7d1404af09cc485551abfea1a1b9381dbf7f3e701ca2b88466c4",
+    "bytes": 82921
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/forecast.json",
+    "sha256": "026cd35a8fd03eb56c441d4ced1804968fdebd4418cabea420ee2a8b857b1934",
+    "bytes": 6178
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/forecast.py",
+    "sha256": "55d4b360e20a50ca58d0e4fde6b27553318e5a51957248da1bd1e78f85203133",
+    "bytes": 4065
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/observations/reconciled.json",
+    "sha256": "01a0d23ab6c969ca5a5a2344e1917196ef8f4d0ce971974c35c4c3ee94732d63",
+    "bytes": 677
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/observations/reconciliation.md",
+    "sha256": "31b4cd7df7e9a1b04cff9c2f59577c84e61f1a75aa4faf1d74d481363a2ef0b4",
+    "bytes": 1196
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/observations/reported.json",
+    "sha256": "eacf5fb4a900d7c2e331d74c1f4446fad381bda626d8c9186de760082d957613",
+    "bytes": 676
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/pilot-plan.json",
+    "sha256": "f15bb2a44c4f985b3327bfe8d31d6a38d7f4cd4fe78a282cdb9ca239be8b7564",
+    "bytes": 1503
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/readout.md",
+    "sha256": "1a18c539a42bb5be2604405dd5b7f2ff9b8b87fb8bc0cc87b0b89a0a63932ce7",
+    "bytes": 6391
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/render_review.py",
+    "sha256": "38ddcc30b7f52e97d45752345209fc4c308680cc5a458e9879200fbf385b87b2",
+    "bytes": 9961
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/replay.py",
+    "sha256": "651f9dde4c3bef9a9948b71e1b363df9be4da73e50feda45f467c2aeb4b49e62",
+    "bytes": 25239
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/source-notes.md",
+    "sha256": "750113ff46def0c22c53c8abcd12951af169e385a5cd4b84ff246947a24ef5ae",
+    "bytes": 3453
+  },
+  {
+    "path": "product-strategist/examples/telecom-brief/strategy.md",
+    "sha256": "9772f14ff0869ba4e7958988ecfde8b30c120a86b5ce686ca3cce18379b5886e",
+    "bytes": 34166
+  },
+  {
+    "path": "product-strategist/knowledge/operations.md",
+    "sha256": "808b81d75ccbebe5a6843fac32b7f0d4c30a85b3a00789ab636a90e2294925cb",
+    "bytes": 4455
+  },
+  {
+    "path": "product-strategist/knowledge/research.md",
+    "sha256": "921fb5caf104af2d65e083b11589b31ddff68533c191f090a84563b92de0250a",
+    "bytes": 6100
+  },
+  {
+    "path": "product-strategist/knowledge/strategy.md",
+    "sha256": "3266c95bb3a97c9d5c786c4d0623287a40275d32b9c09164b1f72cbf02ff78d0",
+    "bytes": 3379
+  },
+  {
+    "path": "product-strategist/pyproject.toml",
+    "sha256": "cd30031f7d3ae4b395c2d0641832e3df4edb4a8fa02215f60f63b3a8759e573c",
+    "bytes": 397
+  },
+  {
+    "path": "product-strategist/strategist/__init__.py",
+    "sha256": "2a62183f4849c88cc47e82cfe6a25faad154f59925fe77160406b7812c4bc45f",
+    "bytes": 103
+  },
+  {
+    "path": "product-strategist/strategist/__main__.py",
+    "sha256": "13a1a5b340cdcfc1902b62be90e508c7c71886000d5bf087e7854aadf09fb35e",
+    "bytes": 52
+  },
+  {
+    "path": "product-strategist/strategist/analytics.py",
+    "sha256": "ce4f024440a3fa3d2e552680261e540f38080a9f34a50e09318873f29dda467b",
+    "bytes": 8250
+  },
+  {
+    "path": "product-strategist/strategist/assets/Manrope-OFL.txt",
+    "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+    "bytes": 4387
+  },
+  {
+    "path": "product-strategist/strategist/assets/Manrope.woff2",
+    "sha256": "1cbaa7a33d28ff77aff552c31612b8eebbef21584f4a1b42d36c3d0deaf39b7f",
+    "bytes": 31760
+  },
+  {
+    "path": "product-strategist/strategist/assets/Unbounded-OFL.txt",
+    "sha256": "31e5d4e83955e7103c34570dd49b0570ef490800bd65b42923c0dd02445263b3",
+    "bytes": 4392
+  },
+  {
+    "path": "product-strategist/strategist/assets/Unbounded.woff2",
+    "sha256": "6639fe1d67a62e8f760366787a7f4590a107226f70f9b6184907b26bdc3c812d",
+    "bytes": 27408
+  },
+  {
+    "path": "product-strategist/strategist/assets/report.css",
+    "sha256": "382652c8ca310a1e8b97b59ff515e0ccd03b0fc00ea1d9a84b4019bbc1bef29f",
+    "bytes": 2566
+  },
+  {
+    "path": "product-strategist/strategist/checkpoint.py",
+    "sha256": "669676e3b52988748d72afea6eb314829cd24c6e0f3ef39c8a05fc4c51223fa5",
+    "bytes": 4386
+  },
+  {
+    "path": "product-strategist/strategist/cli.py",
+    "sha256": "da9e87e0963fd666c9addf10e35a9b11efc589bbdbb25f58642394554d52c8c5",
+    "bytes": 16902
+  },
+  {
+    "path": "product-strategist/strategist/core.py",
+    "sha256": "02082a932f75e427441741bdc8a7fc77ca0f5125d2eb96b618464331bfae2eba",
+    "bytes": 30971
+  },
+  {
+    "path": "product-strategist/strategist/dashboard.py",
+    "sha256": "dcc9495996fefdd12ec68b94b778bb6535367e1b308aa9084a04a15f70e6e484",
+    "bytes": 12919
+  },
+  {
+    "path": "product-strategist/strategist/decision_card.py",
+    "sha256": "7fc62f808903c5dd61ca288e43d185b97007adf90643fe90b9c1aaf3bcfccf1e",
+    "bytes": 6552
+  },
+  {
+    "path": "product-strategist/strategist/decision_lab.py",
+    "sha256": "6db0fa6889f59b74ea7d499c32e93c89e2d63fb40c2bfd012e499c95b0ea77ee",
+    "bytes": 12288
+  },
+  {
+    "path": "product-strategist/strategist/ingest.py",
+    "sha256": "a1da32080a963402b6ad3e4953c6520458e74521d89245bcc10ba34a134b32cc",
+    "bytes": 8492
+  },
+  {
+    "path": "product-strategist/strategist/lab_report.py",
+    "sha256": "8c05985bcece63db0b7f62c78cec79e118a5c8aa4b7427b324283ca3cbb149a5",
+    "bytes": 15198
+  },
+  {
+    "path": "product-strategist/strategist/mcp_server.py",
+    "sha256": "219207244386ead38afa5eb3a1fc63bb57c760a12f0f97eb650d2fdfdb8cbfc5",
+    "bytes": 6904
+  },
+  {
+    "path": "product-strategist/strategist/pilot.py",
+    "sha256": "ba52fad05daab52eaac0bda85bdaa1030ff3db1f93548e6856318d0d83e0d4ea",
+    "bytes": 13380
+  },
+  {
+    "path": "product-strategist/strategist/report.py",
+    "sha256": "adfa95b421c27f3da5e3052c367379bc1d8d1d5a5dace6eb8430e4f9fff98930",
+    "bytes": 6117
+  },
+  {
+    "path": "product-strategist/strategist/retrieval.py",
+    "sha256": "02205b8044bad294f9c50de9e5e6aaf19b32dc83e447762b71be93d20b2ccafc",
+    "bytes": 7106
+  },
+  {
+    "path": "product-strategist/strategist/web_theme.py",
+    "sha256": "559e45bdc4b2d50e1bcf54c5ac2b394d44dc33542e4f77093fbde998a684858c",
+    "bytes": 829
+  },
+  {
+    "path": "product-strategist/templates/brief.json",
+    "sha256": "12bc8d1b4ea323d43c14a7ca6b7a483126dcbff1178d76ae91fb2a50e4e7bb5b",
+    "bytes": 217
+  },
+  {
+    "path": "product-strategist/templates/claim.json",
+    "sha256": "0eecf99bace977dc83cfbf851fe06f44e203727bbbdf77a21b976bb1ed4f3b37",
+    "bytes": 129
+  },
+  {
+    "path": "product-strategist/templates/commitment.json",
+    "sha256": "6b9c8d8bbdabbc5e0a6c0c14e1318a85c46e5578b906122e9814b038ce714c26",
+    "bytes": 144
+  },
+  {
+    "path": "product-strategist/templates/options.json",
+    "sha256": "bc37fec75ec6ccb6a0e7646515904c2f2ae68ab243727797692db5ef173b5086",
+    "bytes": 640
+  },
+  {
+    "path": "product-strategist/templates/research.json",
+    "sha256": "fc144c0fb4bb608ae6e6628aeb10553e692ec6e8e47c8c0d3468a2a03ba60c5f",
+    "bytes": 271
+  },
+  {
+    "path": "product-strategist/templates/strategy.json",
+    "sha256": "c95e385c0677342a46bf463fb1afda235bbdbfc53b687380467037aef56d254a",
+    "bytes": 701
+  },
+  {
+    "path": "product-strategist/tests/test_checkpoint.py",
+    "sha256": "0ec73a68842f33c65daf737bcee4996df006b007e0e4ce460745a79ca577aa1d",
+    "bytes": 4707
+  },
+  {
+    "path": "product-strategist/tests/test_comparison.py",
+    "sha256": "a08286c0c2778d8cbb92f5d5e1687fb69648255c0180e13e6c9ace58f508afa3",
+    "bytes": 1887
+  },
+  {
+    "path": "product-strategist/tests/test_decision_lab.py",
+    "sha256": "604a6f3a5fe5a58616ec34496b15e02f8dabb5ca4d670ae975a7df07fcbe4d77",
+    "bytes": 10360
+  },
+  {
+    "path": "product-strategist/tests/test_extensions.py",
+    "sha256": "4399f13d97a60d9acb7cd3b938ac755dab4b1664f679904278de9e2321afa572",
+    "bytes": 7914
+  },
+  {
+    "path": "product-strategist/tests/test_mix.py",
+    "sha256": "d5674e3170e49b5275951b6667c85053a07dbd12fe2b982e6a4de1c0b161d90e",
+    "bytes": 1942
+  },
+  {
+    "path": "product-strategist/tests/test_pilot.py",
+    "sha256": "17b3e09fb3eee6f07e2a30eef995a11b4b7e7257353962c70cc3bb901aafdea0",
+    "bytes": 5574
+  },
+  {
+    "path": "product-strategist/tests/test_workspace.py",
+    "sha256": "2beccb143fdf4597746c35a54da0aac4c370617c106e92315de4cdb4b6f306e4",
+    "bytes": 18224
+  },
+  {
+    "path": "product-strategist/tools/benchmark_checkpoint.py",
+    "sha256": "714c052f7fffae7062fabd722e8ffd72f8211c38bf71408316cda9e2242f438f",
+    "bytes": 5072
+  },
+  {
+    "path": "product-strategist/tools/benchmark_context.py",
+    "sha256": "29e36c1037e49a5df09219b12f6257a57116f80caa1e8a50af5c18849569c3a7",
+    "bytes": 1783
+  },
+  {
+    "path": "product-strategist/tools/build_submission_pdf.py",
+    "sha256": "1640d838ccbb1ec2f9a67928115ca1f6cc5f5205327a4a6f37b772af034fc7b5",
+    "bytes": 32411
+  },
+  {
+    "path": "product-strategist/tools/compare_runs.py",
+    "sha256": "413a0602f21a98b8f82a5894bb6ad29da85338cff9ee493a549a59d96e5f1355",
+    "bytes": 3329
+  },
+  {
+    "path": "product-strategist/tools/package.py",
+    "sha256": "1e281a26b2f5b5aac17cfa20d5a7c1e89b9bd71c7fa7369c2614e27f764d45af",
+    "bytes": 1546
+  },
+  {
+    "path": "product-strategist/tools/pdf_theme.py",
+    "sha256": "5f81418550dfc59f0695fada7ba0f29eef6de0af5683a9e7b8483b5725f771d2",
+    "bytes": 4095
+  },
+  {
+    "path": "product-strategist/tools/verify_release.py",
+    "sha256": "6687c8c75dec2b0536f564e1cf83601c77434571ceeebce21e4cd99a843028ca",
+    "bytes": 2803
+  }
+]

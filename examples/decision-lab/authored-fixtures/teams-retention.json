@@ -1,0 +1,19 @@
+{
+  "id": "teams-retention",
+  "type": "demo_fact",
+  "text": "В синтетических зрелых когортах teams: 240/400 = 60% D30; у solo 90/300 = 30%. Разница описательная.",
+  "evidence": [
+    {
+      "source": "metrics",
+      "locator": "line:1",
+      "quote": "\"d30_per_activated\":0.6"
+    },
+    {
+      "source": "metrics",
+      "locator": "line:1",
+      "quote": "\"d30_per_activated\":0.3"
+    }
+  ],
+  "confidence": "medium",
+  "confidence_reason": "Расчёт воспроизводим; различия состава сегментов и отбора не контролировались."
+}

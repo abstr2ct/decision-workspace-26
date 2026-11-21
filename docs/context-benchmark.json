@@ -1,0 +1,14 @@
+{
+  "read_all_state_and_sources": {
+    "utf8_bytes": 54693,
+    "median_seconds": 0.004377750000003289,
+    "repeats": 30
+  },
+  "bounded_resume_packet": {
+    "utf8_bytes": 6169,
+    "median_seconds": 0.001553950000243276,
+    "repeats": 30
+  },
+  "byte_reduction_fraction": 0.8872067723474668,
+  "interpretation": "Engineering ablation only: fewer input bytes, not proven fewer billable tokens, better strategy, or analyst time savings. Excluded source content must be read on demand."
+}

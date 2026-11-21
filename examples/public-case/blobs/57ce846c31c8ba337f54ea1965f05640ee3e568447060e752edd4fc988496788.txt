@@ -1,0 +1,2 @@
+forwards messages to your real address
+up to 50 masks

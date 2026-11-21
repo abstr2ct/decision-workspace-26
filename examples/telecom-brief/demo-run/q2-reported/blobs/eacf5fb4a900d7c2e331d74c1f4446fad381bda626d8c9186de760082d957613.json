@@ -1,0 +1,32 @@
+{
+  "plan_sha256": "a910a90599e7ce8c1192bcf8c08a262766a7c70f71d52ddbafd6231d95c6c576",
+  "window_days": 7,
+  "planned_readout": true,
+  "assignment_verified": true,
+  "outcome_verified": true,
+  "incident_reporting_verified": true,
+  "arms": {
+    "control": {
+      "assigned": 1700,
+      "mature": 1700,
+      "adverse": 204,
+      "unknown": 0
+    },
+    "treatment": {
+      "assigned": 1700,
+      "mature": 1700,
+      "adverse": 145,
+      "unknown": 0
+    }
+  },
+  "operations": {
+    "confirmed": 1200,
+    "correct_on_time": 1192,
+    "unknown": 3
+  },
+  "critical_incidents": {
+    "access_after_revocation": 0,
+    "duplicate_debit": 0
+  },
+  "economics": null
+}

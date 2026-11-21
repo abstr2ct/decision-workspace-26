@@ -1,0 +1,86 @@
+:root {
+  color-scheme: dark;
+  --page: #130b24;
+  --surface: #211435;
+  --raised: #281740;
+  --feature: #3a2058;
+  --border: #523b6a;
+  --ink: #f4edff;
+  --muted: #ccbedf;
+  --pink: #ff9cd9;
+  --lilac: #ccadff;
+  --coral: #ffc0c6;
+  --warning: #302037;
+  --danger: #421f39;
+  --body: Manrope, 'Segoe UI', system-ui, sans-serif;
+  --display: Unbounded, Manrope, 'Segoe UI', system-ui, sans-serif;
+}
+
+::selection { background: var(--pink); color: var(--page); }
+:focus-visible { outline: 2px solid var(--pink); outline-offset: 4px; }
+h1 { font-family: var(--display); font-weight: 650; letter-spacing: -.045em; overflow-wrap: anywhere; }
+header { position: relative; isolation: isolate; overflow: hidden; }
+
+@media screen {
+  header {
+    background-image: radial-gradient(ellipse at 95% -45%, #663387 0%, #2a1946 30%, transparent 67%);
+    border-bottom: 1px solid var(--border);
+  }
+  header::before {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    right: -150px;
+    top: -226px;
+    width: 620px;
+    height: 416px;
+    transform: rotate(-19deg) skewX(14deg);
+    border-radius: 49% 51% 56% 44% / 51% 39% 61% 49%;
+    background: repeating-radial-gradient(ellipse at 53% 47%, transparent 0 8px, #e578c452 9px, transparent 10px 15px);
+    opacity: .8;
+    pointer-events: none;
+  }
+  header::after {
+    content: '';
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    top: 28px;
+    right: max(28px, calc((100vw - 1180px) / 2));
+    transform: rotate(45deg);
+    background: var(--pink);
+    box-shadow: 18px 18px 0 -2px var(--lilac);
+    pointer-events: none;
+  }
+  header .eyebrow, header .meta { font: 750 11px/1.4 var(--body); letter-spacing: .105em; }
+  main a, main input, main select, main button, nav a, nav button { transition: background-color .16s, border-color .16s; }
+  main a:hover { color: var(--ink); }
+  nav a:hover, nav button:not(.active):hover { background: var(--raised); border-color: var(--lilac); }
+}
+
+@media (max-width: 700px) {
+  header::before { right: -380px; opacity: .48; }
+  header::after { right: 20px; top: 16px; width: 5px; height: 5px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::after, *::before { transition-duration: 0s !important; scroll-behavior: auto !important; }
+}
+
+@media print {
+  :root {
+    color-scheme: light;
+    --page: #fff;
+    --surface: #fff;
+    --raised: #f5f0fa;
+    --feature: #efe4f9;
+    --border: #a991b7;
+    --ink: #20152a;
+    --muted: #4a3a57;
+    --pink: #65356f;
+    --lilac: #54346f;
+    --coral: #822e4b;
+    --warning: #f6ecf7;
+    --danger: #faebf2;
+  }
+}

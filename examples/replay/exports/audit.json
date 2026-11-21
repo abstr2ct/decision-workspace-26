@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "errors": [],
+  "warnings": [
+    "DEMO: synthetic evidence and simulated approvals; not a real business validation",
+    "Incomplete cost coverage: human, model, search",
+    "Structural audit verifies citations and workflow, not truth, causality, strategy quality or identity of the approving human"
+  ],
+  "revision": 27
+}
